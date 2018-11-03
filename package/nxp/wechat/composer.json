@@ -1,0 +1,23 @@
+{
+    "name": "nxp/wechat",
+    "description": "nxp wechat",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangjh",
+            "email": "9299381@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nxp\\Wechat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nxp\\Wechat\\Tests\\": "tests/"
+        }
+    },
+    "require": {}
+}

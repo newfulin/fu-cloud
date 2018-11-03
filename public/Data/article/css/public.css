@@ -1,0 +1,63 @@
+html,
+body {
+	background-color: #ffffff;
+	min-width: 300px;
+	max-width: 540px;
+	margin: 0 auto;
+	font-family: "宋体";
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #585858;
+}
+a:hover{
+	color: #727272;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+dl,
+dt,
+dd{
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	border: 0;
+	outline:none;	
+}
+
+i{
+	font-style: inherit;
+}
+
+.clear{
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+img{
+	width: 690px;
+	max-width: 100%;
+	margin-top: 1.5rem;
+}

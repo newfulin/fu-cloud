@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title></title>
+	</head>
+
+	<body>
+		<!-- <h2 id="notice_title" style="text-align: center;"></h2> -->
+		<div id="notice_content" style="margin:0 auto;width:99%;"></div>
+		<!-- <div id="create_time"></div> -->
+	</body>
+	<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		function getUrlParam(name) {    
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");    
+			var r = window.location.search.substr(1).match(reg);    
+			if(r != null) return unescape(r[2]);
+			return null;  
+		};
+		var helpId = getUrlParam('helpId');
+		$.ajax({
+			type: 'POST',
+			url: 'https://sixcar.melenet.com/Common.getNoticeInfo',
+			data: {
+				id: helpId
+			},
+			success: function(ret) {
+				ret = ret.data;
+				// $('#notice_title').html(ret.notice_title);
+				$('#notice_content').html(ret.notice_content);
+				// $('#create_time').html(ret.create_time);
+			}
+		})
+	</script>
+
+</html>

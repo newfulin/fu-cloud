@@ -1,0 +1,8 @@
+[2018-02-22 06:08:36] lumen.ERROR: ReflectionException: Class Nxp\Apidoc\ApiDoc does not exist in /Users/wangjh/Sites/Lumen/vendor/illuminate/container/Container.php:752
+Stack trace:
+#0 /Users/wangjh/Sites/Lumen/vendor/illuminate/container/Container.php(752): ReflectionClass->__construct('Nxp\\Apidoc\\ApiD...')
+#1 /Users/wangjh/Sites/Lumen/vendor/illuminate/container/Container.php(631): Illuminate\Container\Container->build('Nxp\\Apidoc\\ApiD...')
+#2 /Users/wangjh/Sites/Lumen/vendor/illuminate/container/Container.php(586): Illuminate\Container\Container->resolve('Nxp\\Apidoc\\ApiD...', Array)
+#3 /Users/wangjh/Sites/Lumen/vendor/laravel/lumen-framework/src/Application.php(230): Illuminate\Container\Container->make('Nxp\\Apidoc\\ApiD...', Array)
+#4 /Users/wangjh/Sites/Lumen/public/doc/index.php(17): Laravel\Lumen\Application->make('Nxp\\Apidoc\\ApiD...')
+#5 {main}  

@@ -1,0 +1,4 @@
+开发说明;
+K0230 :处理的采用汇总流水+ 流量统计 流水
+有 MarkModel 的需要 配置 finance.php
+增加一个ProcessBean 

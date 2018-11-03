@@ -1,0 +1,24 @@
+{
+    "name": "nxp/team",
+    "description": "nxp team",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "langfl",
+            "email": "1289938284@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nxp\\Team\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nxp\\Team\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
