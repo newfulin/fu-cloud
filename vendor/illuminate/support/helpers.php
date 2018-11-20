@@ -553,13 +553,17 @@ if (! function_exists('dd')) {
      */
     function dd(...$args)
     {
-        http_response_code(500);
-
+//        http_response_code(500);
+        print_r('<pre>');
         foreach ($args as $x) {
-            (new Dumper)->dump($x);
+            print_r($x);
         }
-
         die(1);
+//        http_response_code(500);
+//        foreach ($args as $x) {
+//            (new Dumper)->dump($x);
+//        }
+//        die(1);
     }
 }
 
