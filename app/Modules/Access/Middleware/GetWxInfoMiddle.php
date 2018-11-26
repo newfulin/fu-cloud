@@ -27,7 +27,6 @@ class GetWxInfoMiddle extends Middleware
 
     public function handle($request, Closure $next)
     {  
-//        $request = $next($request);
         Log::info('创建微信用户信息 ' . $request['code']);
         Log::info('flag ' . $request['flag']);
         //根据openid 获取微信信息
