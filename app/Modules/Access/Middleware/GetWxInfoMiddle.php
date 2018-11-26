@@ -26,7 +26,7 @@ class GetWxInfoMiddle extends Middleware
     }
 
     public function handle($request, Closure $next)
-    {
+    {  
 //        $request = $next($request);
         Log::info('创建微信用户信息 ' . $request['code']);
         Log::info('flag ' . $request['flag']);
@@ -76,15 +76,15 @@ class GetWxInfoMiddle extends Middleware
     }
 
 //    //检查推荐用户
-//    public function checkRecommend($request){
-//        $request['register_type'] = '02';
-//        if(!isset($request['recommendId']) || empty($request['recommendId'])){
-//            $login_name = config('const_user.RECOMMEND');
-//            $userInfo = $this->user->getUserByLoginName($login_name);
-//            $request['recommendId'] = $userInfo['user_id'];
-//            $request['register_type'] = '01';
-//        }
-//        return $request;
-//    }
+   public function checkRecommend($request){
+       $request['register_type'] = '02';
+       if(!isset($request['recommendId']) || empty($request['recommendId'])){
+           $login_name = config('const_user.RECOMMEND');
+           $userInfo = $this->user->getUserByLoginName($login_name);
+           $request['recommendId'] = $userInfo['user_id'];
+           $request['register_type'] = '01';
+       }
+       return $request;
+   }
 
 }
