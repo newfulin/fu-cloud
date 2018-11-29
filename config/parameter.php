@@ -21,8 +21,8 @@ return [
         'mchId' => '1489063042',
         // 商户支付密钥
         'key' => '5DE312DD35B24DD772EEE8EFAD1028EF',
-        // 升级通知回调地址
-        'notifyUrl' => 'http://mallapi.melenet.com/Callback',
+        // 微信支付回调地址
+        'notifyUrl' => 'http://58.56.21.246/Callback',
         // 交易方式
         'tradeType' => 'NATIVE',
         'body' => '用户升级',
@@ -40,7 +40,7 @@ return [
         // 交易方式
         'tradeType' => 'JSAPI',
         // 转售回调地址
-        'notifyUrl' => 'http://mallapi.melenet.com/Callback',
+        'notifyUrl' => 'http://58.56.21.246/Callback',
 
         // 获取open_id
         'OpenIdUrl' => 'https://api.weixin.qq.com/sns/oauth2/access_token?appid='.'wx6ff4a08101358954'.'&secret='.'68c56330376b219506bcc55d467e18ac'.'&grant_type=authorization_code&code=',
