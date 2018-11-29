@@ -1,0 +1,24 @@
+@charset "utf-8";
+.box {
+	padding: 2.5rem 1rem;
+}
+
+.title {
+	font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+	font-weight: 700;
+	font-size: 2.4rem;
+	color: #434343;
+}
+
+.date {
+	font-size: 1.5rem;
+	color: #8A8A8A;
+	margin-top: 1rem;
+}
+
+p {
+	text-indent: 2em;
+	font-size: 1.5rem;
+	color: #5E5E5E;
+	margin-top: 1.5rem;
+}
