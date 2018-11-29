@@ -1,0 +1,42 @@
+
+Association Rules -关联规则
+在数据挖掘与机器学习中，关联规则（Association Rules）是一种较为常用的无监督学习算法，与我们前面所学习的分类、聚类等算法的不同的是，这一类算法的主要目的在于——发掘数据内在结构特征（即变量）之间的关联性。
+Apriori算法的基本原理
+https://zhuanlan.zhihu.com/p/25432634
+
+
+Classification-分类
+Support Vector Classification 支持向量分类
+Classifier implementing Support Vector Machine based on libsvm.
+基于libsvm的支持向量机的分类算法实现
+SVM - support vector machine, 俗称支持向量机，为一种supervised learning算法，属于classification的范畴。在数据挖掘的应用中，与unsupervised的Clustering相对应和区别。广泛应用于机器学习(Machine Learning), 计算机视觉(Computer Vision) 和数据挖掘(Data Mining)当中。
+
+SVM是Support Vector Machines（支持向量机）的缩写，可以用来做分类和回归。SVC是SVM的一种Type，是用来的做分类的，SVR是SVM的另一种Type，是用来的做回归的。
+
+
+
+https://www.zhihu.com/question/21094489
+Classifier implementing the k-nearest neighbors algorithm.
+KNearestNeighbors Classifier  最近邻居分类
+K-Nearest Neighbor 最邻近分类算法：
+简称KNN，最简单的机器学习算法之一，核心思想俗称“随大流”。是一种分类算法，基于实例的学习（instance-based learning）和懒惰学习（lazy learning）。
+懒惰学习：指的是在训练是仅仅是保存样本集的信息，直到测试样本到达是才进行分类决策。
+
+核心想法：
+在距离空间里，如果一个样本的最接近的k个邻居里，绝大多数属于某个类别，则该样本也属于这个类别。
+
+NaiveBayes Classifier 朴素贝叶斯分类器
+朴素贝叶斯分类器是分类算法集合中基于贝叶斯理论的一种算法。它不是单一存在的，而是一个算法家族，在这个算法家族中它们都有共同的规则。例如每个被分类的特征对与其他的特征对都是相互独立的。
+http://blog.csdn.net/sinat_36246371/article/details/60140664
+https://www.cnblogs.com/Leo_wl/p/4663283.html
+
+
+Regression 回归
+LeastSquares Linear Regression 最小二乘法线性回归
+支持向量回归(support vector regression)
+http://blog.csdn.net/yc_1993/article/details/52325635
+
+K-means clustering 聚类算法
+http://blog.csdn.net/sysu_xiamengyou/article/details/68941900
+
+DBSCAN密度聚类算法
