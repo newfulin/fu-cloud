@@ -12,6 +12,7 @@ use App\Common\Contracts\Middleware;
 use App\Modules\Access\Access;
 use App\Modules\Access\Repository\CommUserRepo;
 use App\Modules\Access\Repository\WxUserInfoRepo;
+use App\Modules\Access\Service\CommonService;
 use Closure;
 use Illuminate\Support\Facades\Log;
 
@@ -26,7 +27,8 @@ class GetWxInfoMiddle extends Middleware
     }
 
     public function handle($request, Closure $next)
-    {  
+    {
+//        $request = $next($request);
         Log::info('创建微信用户信息 ' . $request['code']);
         Log::info('flag ' . $request['flag']);
         //根据openid 获取微信信息
@@ -64,6 +66,11 @@ class GetWxInfoMiddle extends Middleware
 
             return $next($token);
         }
+        $update = [
+            'user_name' => app()->make(CommonService::class)->with('str',$wxinfo['nickname'])->run('userTextEncode'),
+            'headimgurl' => isset($wxinfo['headimgurl']) ? $wxinfo['headimgurl'] : $wxinfo['avatarurl']
+        ];
+        $this->user->updateUser($ret['user_id'],$update);
         $token = Token()
             ->setId($ret['id'])
             ->setName('')
@@ -75,15 +82,15 @@ class GetWxInfoMiddle extends Middleware
     }
 
 //    //检查推荐用户
-   public function checkRecommend($request){
-       $request['register_type'] = '02';
-       if(!isset($request['recommendId']) || empty($request['recommendId'])){
-           $login_name = config('const_user.RECOMMEND');
-           $userInfo = $this->user->getUserByLoginName($login_name);
-           $request['recommendId'] = $userInfo['user_id'];
-           $request['register_type'] = '01';
-       }
-       return $request;
-   }
+//    public function checkRecommend($request){
+//        $request['register_type'] = '02';
+//        if(!isset($request['recommendId']) || empty($request['recommendId'])){
+//            $login_name = config('const_user.RECOMMEND');
+//            $userInfo = $this->user->getUserByLoginName($login_name);
+//            $request['recommendId'] = $userInfo['user_id'];
+//            $request['register_type'] = '01';
+//        }
+//        return $request;
+//    }
 
 }

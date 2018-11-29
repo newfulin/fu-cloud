@@ -19,7 +19,14 @@ class InviteCodeRepo extends Repository
     {
         $this->model = $model;
     }
-
+    public function getCodeNum($userId)
+    {
+        $ret = $this->model
+            ->select('id')
+            ->where('user_id',$userId)
+            ->count();
+        return $ret;
+    }
     //通过用户id获取邀请码列表
     public function getCodeInfoByUserId($request)
     {
@@ -38,12 +45,29 @@ class InviteCodeRepo extends Repository
         return $this->model->where('code', $code)->update($params);
     }
 
-    //获取邀请码的信息
+    //获取邀请码的信息  内部邀请码
     public function getInfoByCode($code)
     {
         $ret = optional($this->model
+            ->select('old_user_id','level_name','change_state','user_id','amount','state','effective_time')
+            ->where([
+                'code' => $code,
+                'type' => '10'
+            ])
+            ->first())
+            ->toArray();
+        return $ret;
+    }
+
+    //获取邀请码的信息   外部邀请码
+    public function getInfoByCode20($code)
+    {
+        $ret = optional($this->model
             ->select('old_user_id','level_name','change_state','user_id','amount','state')
-            ->where('code',$code)
+            ->where([
+                'code' => $code,
+                'type' => '20'
+            ])
             ->first())
             ->toArray();
         return $ret;
@@ -55,7 +79,7 @@ class InviteCodeRepo extends Repository
         $ret = optional($this->model
             ->select('state')
             ->where('code',$code)
-            ->where('state','10')
+            ->where('state','20')
             ->first())
             ->toArray();
         return $ret;

@@ -37,7 +37,7 @@ class AuthServiceProvider extends ServiceProvider
 
             //开发模式 默认token 默认用户id ’1459125212883834264‘
             if(env('APP_ENV') == 'development'){
-                $auth_token = 'eyJpZCI6IjEwOTAzOTUxMjE0NjkzODkzMTIiLCJuYW1lIjoiMTMzNDUwNTYxODkiLCJyb2xlIjoiUDE1MDEiLCJpYXQiOjE1MzY5OTIyNjMsImV4cCI6MTUzOTU4NDI2M30=.0a2f46820bd81e14255fadf02da75afa';
+                $auth_token = 'eyJpZCI6IjExNTkxMTkzNDg3MzcwODgwMDEiLCJuYW1lIjoiMTMzNDUwNTYxODkiLCJyb2xlIjoiUDE1MDEiLCJpYXQiOjE1NDI3MDM0NjIsImV4cCI6MTU0NTI5NTQ2Mn0=.6f26d2f7087b05cfe6487c85c67de137';
             }
             $claims = Token()->verifyToken($auth_token);
             $user = new CommUserInfo();

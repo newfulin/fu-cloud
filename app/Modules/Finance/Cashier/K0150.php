@@ -25,9 +25,11 @@ use App\Modules\Finance\Repository\CommUserInfoRepository;
         'P1501'     => 0,//市代
         'P1601'     => 0, //省代
 
+        'system'    => 8, //平台里面的系统角色
+
         'P2101'     => 0, //招商经理
         'P2201'     => 0, //销售经理
-        'P2301'     => 0, //市场总监
+        'P2301'     => 3, //市场总监
     );
 
     public $repository;
@@ -78,6 +80,30 @@ use App\Modules\Finance\Repository\CommUserInfoRepository;
             //$UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
         }
         Log::info("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        //省代给与8%的绩效提成
+        $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
+        if($UserInfoP1601['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['system']);
+            $param['remark'] = '购物系统级分润';
+            $param['process_id'] = $UserInfoP1601['user_id'];
+            $param['batch_detail_id'] = '3.5';
+            $BookingOrder['3.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("购物系统级分润:".json_encode($param));
+        }
+        //P2301 总监管理提成
+        $UserInfoP2301= $this->getLevelUserInfo($UserInfoDepthList,"P2301");
+        if($UserInfoP2301['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['P2301']);
+            $param['remark'] = '总监管理提成';
+            $param['process_id'] = $UserInfoP2301['user_id'];
+            $param['batch_detail_id'] = '3.6';
+            $BookingOrder['3.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("总监管理提成:".json_encode($param));
+        }
         return $BookingOrder;
     }
 
@@ -131,17 +157,4 @@ use App\Modules\Finance\Repository\CommUserInfoRepository;
      }
 
 
-    /**
-     * 获取指定级别合作商
-     */
-    protected function getLevelUserInfo($retUserInfo,$level)
-    {
-        foreach ($retUserInfo as $key => $userInfo ){
-            $user_tariff_code = $userInfo['user_tariff_code'];
-            if($user_tariff_code == $level){
-                return $userInfo;
-            }
-        }
-        return array('user_id'=>'0','user_tariff_code'=>$level);
-    }
  }

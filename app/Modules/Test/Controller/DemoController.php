@@ -28,8 +28,8 @@ class DemoController extends Controller
         return [
             'testEvent' => [],
             'getToken' => [
-//                'user_id' => 'required|desc:1090384899975892480'
-                'accountNo'         => 'required|accountno',  //银行卡账号
+                'user_id' => 'required|desc:1090384899975892480'
+//                'accountNo'         => 'required|accountno',  //银行卡账号
             ]
         ];
     }

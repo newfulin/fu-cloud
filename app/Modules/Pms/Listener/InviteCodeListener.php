@@ -27,6 +27,23 @@ class InviteCodeListener implements ShouldQueue
 
     public function handle($event){
         $request = $event->request;
+
+        Log::info('邀请码发放 | '.$request['business_code']);
+        switch ($request['business_code']){
+            case 'A1140':  //区代
+                $vip = $this->createCode(20,1000,'VIP_USER',$request['user_id'],'2018-11-30 23:59:59');
+                return $this->code->insert($vip);
+            case 'A1233':  //总代理
+                $vip = $this->createCode(5,1000,'VIP_USER',$request['user_id'],'2018-11-30 23:59:59');
+                return $this->code->insert($vip);
+            case 'A2233':  //合伙人
+                $vip = $this->createCode(10,1000,'VIP_USER',$request['user_id'],'2018-11-30 23:59:59');
+                return $this->code->insert($vip);
+                break;
+        }
+
+        Log::info(' ----------------------------------- ');
+
         //获取用户信息
         $userInfo = $this->user->getUser($request['user_id']);
         //获取生成邀请码配置参数
@@ -62,7 +79,7 @@ class InviteCodeListener implements ShouldQueue
      * @param $user_id string 用户ID
      * @return array
      */
-    public function createCode($number,$amount,$config,$user_id){
+    public function createCode($number,$amount,$config,$user_id,$effective_time = null){
 
         $data = [
             'user_id' => $user_id,
@@ -71,8 +88,9 @@ class InviteCodeListener implements ShouldQueue
             'create_time' => date('Y-m-d H:i:s'),
             'create_by' => $user_id,
             'update_time' => date('Y-m-d H:i:s'),
-            'update_by' => $user_id
+            'update_by' => $user_id,
         ];
+        $data['effective_time'] = $effective_time;
         $arr = [];
         for ($i = 0; $i < $number;$i++){
             $data['id'] = ID();

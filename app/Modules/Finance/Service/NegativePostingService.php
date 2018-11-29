@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Log;
 use App\Events\FinanceRegisterEvent;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Config;
-use App\Modules\Finance\Entity\Entity;
+use App\Modules\Finance\Entity\CashierEntity;
 use App\Modules\Finance\Repository\AcctBookingOrderRepository;
 use App\Modules\Finance\Repository\AcctAccountBalanceRepository;
 
@@ -47,7 +47,7 @@ class NegativePostingService extends Service {
         $batchId = $request['batchId'];
         $negativePostingOrders = $this->cashierNegativePosting($reqCode,$batchId);
         $ret = '0000';
-        $cashierEntity = new Entity();
+        $cashierEntity = new CashierEntity();
         $cashierEntity->setBatchId($negativePostingOrders[0]['batch_id']);
         $cashierEntity->setReqCode($negativePostingOrders[0]['voucher_code']);//请求码
         Event::fire(new FinanceRegisterEvent($cashierEntity));
@@ -168,7 +168,7 @@ class NegativePostingService extends Service {
             $credit_amount = Money()->format($rs['credit_amount']);
             if($debit_amount == '0.00' AND $credit_amount == '0.00'){
                 //计算结果为0时，跳过本次循环
-                continue;
+                //continue;
             }
 
             $result[$key] = $rs;

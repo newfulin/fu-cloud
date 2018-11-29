@@ -20,7 +20,17 @@ class AcctAccountBalanceRepository extends Repository {
     {
         $this->model = $model;
     }
-
+    // 获取余额 type 10 20 30 40 50积分 60
+    public function getBalance($processId,$accountType)
+    {
+        $ret = optional($this->model->select('balance')
+            ->where('process_id','=', $processId)
+            ->where('account_type','=',  $accountType)
+            ->where('status','=', 1))
+            ->first()
+            ->toArray();
+        return $ret['balance'];
+    }
     /**
      * 获取交易明细信息
      */

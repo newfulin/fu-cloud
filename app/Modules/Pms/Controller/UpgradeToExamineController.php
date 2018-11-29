@@ -37,9 +37,22 @@ class UpgradeToExamineController extends Controller
                 'trans_amt'     => 'desc:交易金额',
                 'user_id'       => 'required|desc:升级用户ID'
             ],
+            'SendInvCode' => [
+                'lock' => 'required|desc:验证'
+            ]
         ];
     }
-
+    /**
+     * @desc 用户自动补发邀请码
+     */
+    public function SendInvCode(Request $request){
+        $lock = $request->input('lock');
+        if ($lock != 'Miller') {
+            Err('验证失败');
+        }
+        return Pms::service('InviteCodeUpgradeAuditService')
+            ->run('SendInvCode');
+    }
     /**
      * @desc PMS 用户升级审核
      */
@@ -51,5 +64,19 @@ class UpgradeToExamineController extends Controller
             ->with('trans_amt'    , $request->input('trans_amt'     ))
             ->with('user_id'      , $request->input('user_id'       ))
             ->run();
+    }
+
+    /**
+     * @desc PMS邀请码升级审核
+     */
+    public function InviteCodeUpgradeAudit(Request $request)
+    {
+        Log::info('pms 邀请码给用户升级审核');
+        return Pms::service('InviteCodeUpgradeAuditService')
+            ->with('detail_id'    , $request->input('detail_id'     ))
+            ->with('business_code', $request->input('business_code' ))
+            ->with('trans_amt'    , $request->input('trans_amt'     ))
+            ->with('user_id'      , $request->input('user_id'       ))
+            ->run('InviteCodeUpgradeAudit');
     }
 }

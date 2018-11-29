@@ -29,6 +29,9 @@ class TeamController extends Controller
                 'page'      => 'required',
                 'pageSize'  => 'required'
             ],
+            'switchTeamRelations' => [
+                'recommend_code' => 'required|desc:推荐码'
+            ],
             'getSuperiorRecommendAll' => [
                 'user_id' =>'required'
             ],
@@ -154,6 +157,19 @@ class TeamController extends Controller
         ];
         return app('nxp-team')->query()
             ->getSuperiorRecommendAll($param);
+    }
+
+    /**
+     * @desc 团队使用邀请码切换
+     */
+    public function switchTeamRelations(Request $request){
+        $user_id = $request->user()->claims->getId();
+        Log::info('团队切换| '.$user_id);
+
+        return Access::service('TeamService')
+            ->with('recommend_code',$request->input('recommend_code'))
+            ->with('user_id',$user_id)
+            ->run('switchTeamRelations');
     }
 
     /**

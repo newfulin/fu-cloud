@@ -33,6 +33,9 @@ class WidgetController extends Controller
                 'page' => 'required|default:1',
                 'pageSize' => 'required|default:3',
                 'keyWord' => '',
+            ],
+            'myPointBalance' => [
+
             ]
         ];
     }

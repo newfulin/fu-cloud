@@ -49,13 +49,13 @@ class WxxCxLoginMiddle extends Middleware
 
         Log::info('用户微信信息 | '.json_encode($wxinfo));
 
-        $ret = $this->user->getUserInfoByOpenId($wxinfo);
+        $ret = $this->user->getUserInfoByUnionid($wxinfo);
 
         if(!$ret){
             //使用获取微信用户信息,并注册
             Log::info('微信用户注册 | '.$wxinfo['openid']);
             //微信小程序  获取到的数据 没有 unionid 默认为空
-            $wxinfo['unionid'] = '';
+
             $ret = Access::service('WxUserRegisterService')
                 ->with('wxinfo',$wxinfo)
                 ->with('recommendId',$request['recommendId'])

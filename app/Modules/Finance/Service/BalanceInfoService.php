@@ -171,4 +171,11 @@ class BalanceInfoService extends Service{
         }
         return $ret;
     }
+
+    /**
+     * @desc 获取累计收益
+     */
+    public function getAllProfit(AcctBookingOrderRepository $repo,$request){
+        return $repo->getAllProfit($request);
+    }
 }

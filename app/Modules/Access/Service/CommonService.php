@@ -15,6 +15,7 @@ use App\Modules\Access\Repository\CommCodeMasterRepo;
 use App\Modules\Access\Repository\CommSupportBankInfoRepo;
 use App\Modules\Access\Repository\CommUserRepo;
 use App\Modules\Access\Repository\SysCityRepo;
+use App\Modules\Transaction\Repository\TranTransOrderRepo;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class CommonService extends Service
@@ -26,6 +27,12 @@ class CommonService extends Service
     //根据城市,银行  获取银联列表
     public function getAreaBankList(CommBankDbRepo $repo,$request)
     {
+        //添加 / 更新
+//        Redis::zadd('113082355707344578',10,'1130823557073447123');
+        // 普通查询
+//        Redis::zrange('user_id',0,10,'WITHSCORES');
+        // 根据分数从高到底 排序
+//        Redis::ZREVRANGE('user_id',0,10,'WITHSCORES');
         return $repo->getAreaBankList($request);
     }
 
@@ -116,5 +123,16 @@ class CommonService extends Service
         $data['number'] = $number;
 
         return $data;
+    }
+
+    public function checkInvitationCodeNumber(CommUserRepo $user,TranTransOrderRepo $order,$request){
+        //获取 总代理,合伙人,区代 用户
+        $userList = $user->getUserDataByLevelName();
+        foreach($userList as $key => $val){
+            $orderInfo = $order->getTransOrderInfoByUserId($val['user_id']);
+            if($orderInfo) dd($orderInfo);
+        }
+
+
     }
 }

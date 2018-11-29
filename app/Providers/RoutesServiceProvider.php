@@ -19,6 +19,7 @@ class RoutesServiceProvider extends ServiceProvider
         $this->registerCallbackRoutes();
         $this->registerTestRoutes();
         $this->registerPmsRoutes();
+        $this->registerHeadlineRouters();
     }
 
     public function boot()
@@ -58,6 +59,14 @@ class RoutesServiceProvider extends ServiceProvider
             'namespace' => 'App\Modules\Pms\Controller',
         ], function ($router) {
             require __DIR__ . '/../Routes/pms.php';
+        });
+    }
+
+    public function registerHeadlineRouters(){
+        app()->router->group([
+            'namespace' => 'App\Modules\Headline\Controller',
+        ], function ($router) {
+            require __DIR__ . '/../Modules/Headline/Routes/headline.php';
         });
     }
 

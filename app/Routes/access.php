@@ -15,6 +15,7 @@
 
 // 不需要身份验证的请求
 $router->group([],function()use ($router){
+    $router->post('/Mem.memCentre', 'MemCentreCon@memCentre');
 
     //公共部分 Service
     //根据城市,银行 获取银联列表
@@ -94,25 +95,50 @@ $router->group([],function()use ($router){
 
 //升级功能简介
     //获取功能介绍列表
-//    $router->post('/UpdateBrief.getIntroduceList', ['uses' => 'UpdateBriefController@getIntroduceList','as' => 'UpdateBrief.getIntroduceList']);
+    $router->post('/UpdateBrief.getIntroduceList', ['uses' => 'UpdateBriefController@getIntroduceList','as' => 'UpdateBrief.getIntroduceList']);
     //获取功能介绍详情
-//    $router->post('/UpdateBrief.getIntroduceInfo', ['uses' => 'UpdateBriefController@getIntroduceInfo','as' => 'UpdateBrief.getIntroduceInfo']);
+    $router->post('/UpdateBrief.getIntroduceInfo', ['uses' => 'UpdateBriefController@getIntroduceInfo','as' => 'UpdateBrief.getIntroduceInfo']);
 
 //用户
     //忘记密码
     $router->post('/User.forgetPassWord', ['uses' => 'CommUserInfoController@forgetPassWord','as' => 'User.forgetPassWord']);
 // ---------------------------
+    //原六个车用户邀请码升级  六个车合伙人  合作商|车巢|代理商
+    $router->post('/Invite.oldUserUpgrade', ['uses' => 'InviteCodeController@oldUserUpgrade', 'as' => 'Invite.oldUserUpgrade']);
+
     //查询推荐上三级
     $router->post('/Team.getABCRecommendAll', ['uses' => 'TeamController@getABCRecommendAll','as' => 'Team.getABCRecommendAll']);
 
 
 // ---------------------------------------Neko------------------------------------------------------------------------------------------
+// 商品
+    // 获取商品购买记录信息
+    $router->post('/Goods.buyRecord','GoodsCon@buyRecord');
+    // 获取我喜欢的商品列表
+    $router->post('/Goods.getLikeGoodsList','GoodsCon@getLikeGoodsList');
+    // 获取商品列表
+    $router->post('/Goods.getGoodsList','GoodsCon@getGoodsList');
+    // 获取商品详情
+    $router->post('/Goods.getGoodsInfo','GoodsCon@getGoodsInfo');
     // 红包
     $router->post('/Reward.redPacket','RewardCon@redPacket');
+    //热品推荐
+    $router->post('/Goods.getRecommendGoods','GoodsCon@getRecommendGoods');
+    //根据分类查询
+    $router->post('/Goods.sortGoodsList','GoodsCon@sortGoodsList');
+    //数据查询
+    $router->post('/Goods.getSearchList','GoodsCon@getSearchList');
+    //模糊查询
+    $router->post('/Goods.getSearchName','GoodsCon@getSearchName');
+    //获取产品二维码
+    $router->post('/getCode','GoodsCon@getCode');
 
 //团队关系操作
     //团队关系直接切换
     $router->post('/Team.directSwitchTeamRelations', ['uses' => 'TeamController@directSwitchTeamRelations','as' => 'Team.directSwitchTeamRelations']);
+
+//邀请码检测
+    $router->post('/Common.checkInvitationCodeNumber', ['uses' => 'CommonController@checkInvitationCodeNumber','as' => 'Common.checkInvitationCodeNumber']);
 });
 
 //pms 接口
@@ -123,7 +149,15 @@ $router->group([],function()use ($router){
 
 // 需要身份验证的接口
 $router->group(['middleware' => ['auth']], function () use ($router) {
-    //收藏
+
+    //获取订阅信息
+    $router->post('/Wx.getSubscribe', ['uses' => 'ShareController@getSubscribe','as' => 'Wx.getSubscribe']);
+
+    //我的积分充值界面
+    $router->post('/BuyPoint.myPointBalance', ['uses' => 'BuyPointCon@myPointBalance','as' => 'BuyPoint.myPointBalance']);
+    //积分充值
+    $router->post('/BuyPoint.buyPoint', ['uses' => 'BuyPointCon@buyPoint','as' => 'BuyPoint.buyPoint']);
+
     //商品  收藏
     $router->post('/Collection.collectionData', ['uses' => 'CollectionController@collectionData','as' => 'Collection.collectionData']);
     //取消收藏
@@ -191,6 +225,8 @@ $router->group(['middleware' => ['auth']], function () use ($router) {
     $router->post('/Team.getTeamListUser', ['uses' => 'TeamController@getTeamListUser','as' => 'Team.getTeamListUser']);
     //获取直推上级
     $router->post('/Team.judgeRecommendRelition', ['uses' => 'TeamController@judgeRecommendRelition','as' => 'Team.judgeRecommendRelition']);
+    //团队使用邀请码切换
+    $router->post('/Team.switchTeamRelations', ['uses' => 'TeamController@switchTeamRelations','as' => 'Team.switchTeamRelations']);
     //查询我的直推上级用户,无推荐关系查询为空
     $router->post('/Team.getSuperiorParent1', ['uses' => 'TeamController@getSuperiorParent1','as' => 'Team.getSuperiorParent1']);
     //查询推广人数
@@ -201,10 +237,56 @@ $router->group(['middleware' => ['auth']], function () use ($router) {
 
 //用户升级
     $router->post('/Upgrade.plusUpgrade', ['uses' => 'UserUpgradeController@plusUpgrade','as' => 'Upgrade.plusUpgrade']);
+    $router->post('/AgentUpgrade.AgentUpgrade', ['uses' => 'AgentUpgradeController@AgentUpgrade','as' => 'AgentUpgrade.AgentUpgrade']);
+
+//邀请码
+    //使用邀请码
+    $router->post('/Invite.useCode',['uses' => 'InviteCodeController@useCode', 'as' => 'Invite.useCode']);
+    //邀请码转增
+    $router->post('/Invite.giveInviteCode', ['uses' => 'InviteCodeController@giveInviteCode', 'as' => 'Invite.giveInviteCode']);
+    //获取邀请码页面
+    $router->post('/Invite.giveInviteList', ['uses' => 'InviteCodeController@giveInviteList', 'as' => 'Invite.giveInviteList']);
+
+    //获取原六个车用户信息
+    $router->post('/OldUser.getOldUserInfo',['uses' => 'InviteCodeController@getOldUserInfo','as' => 'OldUser.getOldUserInfo']);
+
+
+//商品订单
+    //商品订单生成
+    $router->post('/GoodsOrder.generateGoodsOrder', ['uses' => 'GoodsOrderController@generateGoodsOrder', 'as' => 'GoodsOrder.generateGoodsOrder']);
+    //订单列表
+    $router->post('/GoodsOrder.getGoodsOrder', ['uses' => 'GoodsOrderController@getGoodsOrder', 'as' => 'GoodsOrder.getGoodsOrder']);
+    //订单支付
+    $router->post('/GoodsOrder.payGoodsOrder', ['uses' => 'GoodsOrderController@payGoodsOrder', 'as' => 'GoodsOrder.payGoodsOrder']);
+    //确认收货
+    $router->post('/GoodsOrder.confirmGoods', ['uses' => 'GoodsOrderController@confirmGoods', 'as' => 'GoodsOrder.confirmGoods']);
+    //订单删除
+    $router->post('/GoodsOrder.delOrder', ['uses' => 'GoodsOrderController@delOrder', 'as' => 'GoodsOrder.delOrder']);
+    //订单详情
+    $router->post('/GoodsOrder.getOrderDetail','GoodsOrderController@getOrderDetail');
+// 收货地址
+
+    // 添加收货地址
+    $router->post('/Mall.createRecAddress','UserRelatedController@createRecAddress');
+    // 删除收货地址，。
+    $router->post('/Mall.delRecAddress','UserRelatedController@delRecAddress');
+    // 修改收货地址
+    $router->post('/Mall.updRecAddress','UserRelatedController@updRecAddress');
+    // 设置默认地址
+    $router->post('/Mall.setRecDefault','UserRelatedController@setRecDefault');
+    // 获取地址信息
+    $router->post('/Mall.getRecInfo','UserRelatedController@getRecInfo');
+    // 获取默认地址
+    $router->post('/Mall.getDefAddress','UserRelatedController@getDefAddress');
+    // 获取收货地址列表
+    $router->post('/Mall.getRecAddressList','UserRelatedController@getRecAddressList');
 
 
 //获取二维码
     $router->post('/Common.getQrcode', ['uses' => 'CommonController@getQrcode','as' => 'Common.getQrcode']);
+
+//积分转赠
+    $router->post('/Points.givePoint', ['uses' => 'BuyPointCon@givePoint','as' => 'Points.givePoint']);
 
 });
 
@@ -213,8 +295,23 @@ $router->group(['middleware' => ['auth','permission']], function () use ($router
 
 });
 //头条相关接口
+//获取头条列表
+$router->post('/getTopList','TopController@getTopList');
+//获取头条详情
+$router->post('/getTopInfo','TopController@getTopInfo');
+//首页头条
+$router->post('/getHomeTopList','TopController@getHomeTopList');
+
+//获取首页头条图片
+$router->post('/getTopImg','TopController@getTopImg');
+
+
+
+
 
 //-----------------------------------------------------------------------
 
+// 获取分享信息
+$router->post('/Promote.wxShareInfo', 'ToPromoteCon@wxShareInfo');
 // 反馈
 $router->post('/General.feedback', 'GeneralCon@feedback');

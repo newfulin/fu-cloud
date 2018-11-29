@@ -7,5 +7,6 @@ $router->get('/Callback.Test',
 );
 */
 $router->post('/Callback', 'WeChatController@NativePay');
+$router->post('/Resale', 'WeChatController@Resale');
 
 

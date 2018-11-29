@@ -23,7 +23,6 @@ class WeChatOrderMiddle extends Middleware
         $request['body'] = config('interface.DICT.'.$request['business_code'] . '.msg');
 
         $notifyUrl = config('parameter.SHARE.notifyUrl');
-
         $trans_amt = Money()->getYuan2Fen($request['trans_amt']);
 
 //        $result = app('nxp-wechat')->pay()

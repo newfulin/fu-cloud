@@ -19,7 +19,7 @@ class TeamService extends Service {
 
 	public $afterEvent = [
 		SwitchTeamRelationsAfterEvent::class => [
-			'only' => ['directSwitchTeamRelations'],
+			'only' => ['switchTeamRelations','directSwitchTeamRelations'],
 		],
 	];
 
@@ -35,6 +35,34 @@ class TeamService extends Service {
 			return 0;
 		}
 		return 1;
+	}
+
+	//团队使用邀请码切换
+	public function switchTeamRelations($request) {
+
+		$userInfo = app()->make(CommUserRepo::class)->getReferralCode($request);
+		if (!$userInfo) {
+			Err('请输入正确的推荐码!');
+		}
+
+		if ($userInfo['user_tariff_code'] == config('const_user.NEST_USER.code')) {
+			$request['recommend_id'] = $userInfo['id'];
+			return $request;
+		}
+
+		$param = [
+			'user_id' => $userInfo['id'],
+		];
+		$team = app('nxp-team')->query()
+			->getSuperiorRecommendAll($param);
+		foreach ($team as $key => $val) {
+			if ($val['user_tariff_code'] == config('const_user.NEST_USER.code')) {
+				$request['recommend_id'] = $userInfo['id'];
+				return $request;
+			} else {
+				Err('请输入正确的推荐码!');
+			}
+		}
 	}
 
 	public function getSuperiorParent1($request) {

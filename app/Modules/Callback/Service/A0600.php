@@ -64,9 +64,9 @@ class A0600 extends Service
     //更新商品销量
     public function updateGoodsSales($orderInfo){
         //更新商品销量  sales
-        $info = $this->order->getOrderInfo($orderInfo);
+        $info = $this->order->getOrdeSerrInfo($orderInfo);
 
-        return $this->info->setIncrementing($info['goods_id']);
+        return $this->info->setIncrementingNumber($info['goods_id'],$info['number']);
     }
 
     //更新用户等级

@@ -15,7 +15,6 @@ class WxPayOrderMiddleware extends Middleware
     public function handle($request, Closure $next)
     {
         $result = $request['result'];
-        $request['result'] = $result;
         // TODO: Implement handle() method.
         $WeChatParams = array(
             'id' => $result['out_trade_no'],
@@ -42,9 +41,10 @@ class WxPayOrderMiddleware extends Middleware
             'channel_rate' => $request['rateInfo']['rate'],        // 通道费率
             'channel_id' => $request['channelInfo']->channel_id,   // 通道ID
             'channel_merc_id' => $request['channelInfo']->merc_id, // 通道商户编号
-            'recharge_amt' => isset($request['recharge_amt']) ? $request['recharge_amt'] : 0
-        );
+            'recharge_amt' => isset($request['recharge_amt']) ? $request['recharge_amt'] : 0,
+            'relation_id' => $request['summaryId'],
 
+        );
         $params = array();
         $params['appid']        = $result['appid'];
         $params['partnerid']    = $result['partnerid'];
@@ -54,7 +54,10 @@ class WxPayOrderMiddleware extends Middleware
         $params['package']      = "Sign=WXPay";
         $params['sign']         = $request['sign'];
         $params['out_trade_no'] = $result['out_trade_no'];
-        $params['code_url'] = $result['code_url'];
+
+        if (isset($result['code_url'])) {
+            $params['code_url'] = $result['code_url'];
+        }
         $request['params'] = $params;
 
         $request['detailId'] = $result['out_trade_no'];

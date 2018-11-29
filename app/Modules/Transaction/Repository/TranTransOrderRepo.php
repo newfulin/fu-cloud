@@ -16,6 +16,36 @@ class TranTransOrderRepo extends Repository{
     {
         $this->model = $model;
     }
+    // 获取用户列表
+    public function getUserArr()
+    {
+        $ret = optional($this->model
+            ->select('user_id','business_code')
+            ->orWhere(function ($query){
+                $query->where('status','2')->where('business_code','A1140');
+            })
+            ->orWhere(function ($query){
+                $query->where('status','2')->where('business_code','A1233');
+            })
+            ->orWhere(function ($query){
+                $query->where('status','2')->where('business_code','A2233');
+            })
+            ->get())
+            ->toArray();
+        return $ret;
+    }
+    //通过用户ID和邀请码查询明细流水是否存在
+    public function getTransOrderByUserId($code,$user_id)
+    { return optional($this->model
+        ->select('id')
+        ->where([
+            'user_id' => $user_id,
+            'invite_code' => $code,
+        ])
+        ->first())
+        ->toArray();
+    }
+
     public function getDetailOrder($id)
     {
         return optional($this->model->select('id','trans_amt','business_code','status','user_id','invite_code')
@@ -89,8 +119,32 @@ class TranTransOrderRepo extends Repository{
             ->toArray();
     }
 
+    //根据类型查询明细流水是否存在
+    public function getTransOrderByUserIdType($user_id,$business_code){
+        return optional($this->model
+            ->select('id')
+            ->where([
+                'user_id' => $user_id,
+                'business_code' => $business_code,
+                'status' => 1
+            ])
+            ->first())
+            ->toArray();
+    }
+
     public function update($id, $params)
     {
         return $this->model->where('id', $id)->update($params);
+    }
+
+    public function getTransOrderInfoByUserId($user_id){
+        return optional($this->model
+            ->select('id','business_code','merc_name','acct_req_code','acct_res_code','user_id','type')
+            ->where([
+                'user_id' => $user_id,
+                'status' => 2
+            ])
+            ->get())
+            ->toArray();
     }
 }

@@ -31,7 +31,7 @@ class CommonController extends Controller
             ],
             'getQrcode' => [
                 'url' => 'desc:二维码跳转地址'
-            ]
+            ],
         ];
     }
 
@@ -110,5 +110,13 @@ class CommonController extends Controller
             ->with('url',$request->input('url'))
             ->with('user_id',$user_id)
             ->run('getQrcode');
+    }
+
+    /**
+     * @desc 用户邀请码数量检测
+     */
+    public function checkInvitationCodeNumber(Request $request){
+        return Access::service('CommonService')
+            ->run('checkInvitationCodeNumber');
     }
 }

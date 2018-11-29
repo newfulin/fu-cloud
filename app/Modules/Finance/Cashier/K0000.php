@@ -85,4 +85,18 @@ class K0000
         return $markBookingOrder;
     }
 
+    /**
+     * 获取指定级别合作商
+     */
+    public function getLevelUserInfo($retUserInfo,$level)
+    {
+        foreach ($retUserInfo as $key => $userInfo ){
+            $user_tariff_code = $userInfo['user_tariff_code'];
+            if($user_tariff_code == $level){
+                return $userInfo;
+            }
+        }
+        return array('user_id'=>'0','user_tariff_code'=>$level);
+    }
+
 }

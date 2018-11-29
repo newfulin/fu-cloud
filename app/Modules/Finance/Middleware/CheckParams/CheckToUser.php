@@ -10,7 +10,7 @@ use App\Modules\Finance\Repository\MeetingOrderRepository;
 
 
 /**
- * 收款账户信息监测
+ * To 对象
  */
 class CheckToUser extends Middleware{
 
@@ -27,71 +27,35 @@ class CheckToUser extends Middleware{
 
     public function handle($request, Closure $next)
     {
-        Log::info("收款账户信息监测");
+        Log::info("To 对象账户信息监测");
         $request = $this->checkParams($request);
         return $next($request);
     }
 
     protected function checkParams($request)
     {
-        Log::info("<<<<<<<<<<收款账户信息监测>>>>>>>...");
+        Log::info("<<<<<<<<<<To 对象>>>>>>>...");
         $code = $request['code'];
-        if($code == "K0220" || $code == "K0210" ){
-            $request = $this->_getK0220($request);
-        }
-        if($code == "K0310"){
-            $request = $this->_getK0310($request);
+        if($code == "K0260"  ){
+            $request = $this->_getK0260($request);
         }
         return $request;
     }
 
     /**
-     * 咖啡二维码支付
+     * to 对象
      */
-    protected function _getK0220($request){
+    protected function _getK0260($request){
         $order = $request['order'];
-        $relationId = $order['relation_id'];
-        $retCC = app()->make(CoffeeConsumeOrderRepository::class)->getEntity($relationId);
-
-        if($retCC){
-            Log::info("<<<<<<<<<<咖啡交易明细流水监测>>>>>>>...");
-            $toUserId = $retCC['to_user_id'];
-            $ret = $this->repository->getEntity($toUserId);
-            if(!$ret){
-                Log::error("9904:收款账户信息信息不存在");
-                Err("收款账户信息信息不存在:9904");
-            }
-            $request['touserid'] = $toUserId;
-        }else{
-            Log::error("9998:咖啡交易明细流水不存在!");
-            Err("咖啡交易明细流水不存在:9998");
+        $to_user_id = $order['to_user_id'];
+        $request['touserid'] = $to_user_id;
+        if($to_user_id==null ||$to_user_id==""){
+            Err("转赠对象不存在:5018");
         }
         return $request;
     }
 
-    /**
-     * 会议支付的店长收款方
-     */
-    protected function _getK0310($request){
-        Log::info("<<<<<<<<<<会议支付的店长收款方>>>>>>>...");
-        $order = $request['order'];
-        $relationId = $order['relation_id'];
-        $retCC = app()->make(MeetingOrderRepository::class)->getEntity($relationId);
-        if($retCC){
-            Log::info("<<<<<<<<<<会议明细流水监测>>>>>>>...");
-            $toUserId = $retCC['to_user_id'];
-            $ret = $this->repository->getEntity($toUserId);
-            if(!$ret){
-                Log::error("9804:收款账户信息信息不存在");
-                Err("收款账户信息信息不存在:9804");
-            }
-            $request['touserid'] = $toUserId;
-        }else{
-            Log::error("9898:咖啡交易明细流水不存在!");
-            Err("咖啡交易明细流水不存在:9898");
-        }
-        return $request;
-    }
+
 
     /**
      * 获取指定级别合作商

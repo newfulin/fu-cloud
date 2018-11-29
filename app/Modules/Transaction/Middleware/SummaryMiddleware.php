@@ -50,6 +50,7 @@ class SummaryMiddleware extends Middleware
             'status' => '1',
             'merc_tariff_code' => $request['tariff_code'],
 
+            'to_user_id' => isset($request['to_user_id']) ? $request['to_user_id'] : '',
             'create_time' => date("Y-m-d H:i:s", $request['time']),
             'create_by' => 'system',
             'update_time' => date("Y-m-d H:i:s", $request['time']),
@@ -58,7 +59,7 @@ class SummaryMiddleware extends Middleware
 
         $this->repo->insert($summaryParams);
         $request['summaryParams'] = $summaryParams;
-
+        Log::info('-----------生成汇总流水------');
         return $next($request);
 
     }

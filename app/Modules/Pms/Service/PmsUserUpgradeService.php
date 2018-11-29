@@ -64,6 +64,10 @@ class PmsUserUpgradeService extends Service
         }
     }
 
+    public function pmsAreaUserUpgrade($request){
+        return $request;
+    }
+
     public function updateOrder($ret,$params){
         DB::beginTransaction();
         try {

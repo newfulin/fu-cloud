@@ -12,7 +12,16 @@ class CommUserInfoRepository extends Repository
     {
         $this->model = $model;
     }
-
+    // 获取用户等级
+    public function getUserLevel($userId)
+    {
+        $re = optional($this->model
+            ->select('level_name')
+            ->where('user_id',$userId)
+            ->first())
+            ->toArray();
+        return $re['level_name'];
+    }
     public function memCentre($userId)
     {
         $re = optional($this->model

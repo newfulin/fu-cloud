@@ -83,6 +83,7 @@ class UserUpgradeService extends Service
 
         $team = app('nxp-team')->query()
             ->getSuperiorRecommendAll($param);
+        $business_code = '';
         foreach ($team as $key => $val){
             if($val['user_tariff_code'] == config('const_user.NEST_USER.code')){
                 $business_code = ($val['user_id'] != '0') ? 'A0110' : 'A0120';

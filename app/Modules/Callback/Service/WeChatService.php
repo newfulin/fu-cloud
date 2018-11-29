@@ -56,7 +56,7 @@ class WeChatService extends Service
     //微信回调结果处理 (用户升级,咖啡豆充值)
     public function nativePay($request)
     {
-        Log::info('-------会员升级回调结果处理---------' . json_encode($request));
+        Log::info('-------微信回调结果处理---------' . json_encode($request));
         $data = $request['data'];
 
         $re = $this->handleOrder($data);

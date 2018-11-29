@@ -84,7 +84,7 @@ if(! function_exists('R')) {
         if($flag){
             $url = "http://" . $_SERVER['HTTP_HOST'] . "/Data" . "/";
         }else{
-            $url = "http://192.168.1.2:8098/image/";
+            $url = "http://mallpms.melenet.com/image/";
         }
         
         if (is_array($path)) {
@@ -236,7 +236,7 @@ if (!function_exists('makeJsContent')){
 if (! function_exists('getConfigure'))
 {
     function getConfigure($code,$key){
-        $ret = app(\App\Modules\Misc\Repository\CommCodeMasterRepo::class)
+        $ret = app(\App\Modules\Access\Repository\CommCodeMasterRepo::class)
             ->getConfigure($code,$key);
         $ret['code'] = $code;
         $ret['key'] = $key;

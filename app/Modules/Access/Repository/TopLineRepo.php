@@ -160,7 +160,7 @@ class TopLineRepo extends Repository{
                 if($item['img']) {
                     return [
                         'name' => 'ViewImg',
-                        'src' => $item['img'],
+                        'src' => RUeditor($item['img'],false),
                         'height' => $item['img_h'],
                         'width' => $item['img_w']
                     ];

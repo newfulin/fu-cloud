@@ -20,7 +20,16 @@ class CommUserRepo extends Repository
     {
         $this->model = $model;
     }
-
+    // 通过用户ID获取用户等级level_name(资费编码user_tariff_code)
+    public function getUserLevelById($userId)
+    {
+        $ret = optional($this->model
+            ->select('level_name')
+            ->where('user_id',$userId)
+            ->first())
+            ->toArray();
+        return $ret['level_name'];
+    }
     //根据ID查询用户信息
     public function getUser($user_id){
         return optional($this->model
@@ -45,7 +54,7 @@ class CommUserRepo extends Repository
     public function getCodeByTel($tel)
     {
         $ret = optional($this->model
-            ->select('user_tariff_code')
+            ->select('user_id','user_tariff_code')
             ->where('login_name',$tel)
             ->first())
             ->toArray();
@@ -170,9 +179,19 @@ class CommUserRepo extends Repository
     //根据ID查询用户信息
     public function getUserById($user_id){
         return optional($this->model
-            ->select('user_id','user_name')
+            ->select('user_id','user_name','user_tariff_code')
             ->where('user_id',$user_id)
             ->first())
+            ->toArray();
+    }
+
+    //获取 总代理,合伙人,区代 用户
+    public function getUserDataByLevelName(){
+        return optional($this->model
+            ->select('user_id','user_name')
+            ->where('level_name','>=','P1301')
+            ->where('level_name','<=','P1401')
+            ->get())
             ->toArray();
     }
 }

@@ -134,7 +134,7 @@ class AcctBookingOrderRepository extends Repository {
         ->where('voucher_code','=',$reqCode)
         ->where('batch_id','=',$batchId)
         ->where('account_balance_status','=','1')
-        ->orderby('batch_id')->get())->toArray();
+        ->orderby('id')->get())->toArray();
         return $ret;
     }
 
@@ -195,6 +195,19 @@ class AcctBookingOrderRepository extends Repository {
             ->get())
             ->toArray();
         return $ret;
+    }
+
+    /**
+     * 累计收益
+     */
+    public function getAllProfit($params){
+        return $this->model
+            ->where([
+                'process_id' => $params['user_id'],
+                'debit_credit_direction' => 2,
+                'account_type' => 10,
+            ])
+            ->sum('credit_amount','0.00');
     }
 
 }

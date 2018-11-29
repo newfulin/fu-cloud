@@ -35,7 +35,7 @@ class ShareController extends Controller
             ],
             'webShare' => [
                 'url' => 'required|desc:分享地址'
-            ]
+            ],
         ];
     }
 
@@ -78,6 +78,15 @@ class ShareController extends Controller
         return Access::service('ShareService')
             ->with('url', $request->input('url'))
             ->run('webShare');
+    }
+    /**
+     * @desc 获取订阅信息
+     */
+    public function getSubscribe(Request $request){
+        $userId = $request->user()->claims->getId();
+        return Access::service('ShareService')
+            ->with('userId',$userId)
+            ->run('getSubscribe');
     }
 
 

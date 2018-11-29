@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Log;
 use App\Modules\Finance\Repository\CommUserInfoRepository;
 /**
  * 订单支付分润
+ * @desr 省代临时担任系统的角色
  */
 
  class K0600 extends K0000 {
@@ -24,9 +25,11 @@ use App\Modules\Finance\Repository\CommUserInfoRepository;
         'P1501'     => 21,//市代
         'P1601'     => 21, //省代
 
+        'system'    => 8,//平台里面的系统角色
+
         'P2101'     => 0, //招商经理
         'P2201'     => 0, //销售经理
-        'P2301'     => 0, //市场总监
+        'P2301'     => 2, //市场总监
     );
 
 //        'seniorExecutive'=> 1, //高管    ----  18800001001
@@ -132,7 +135,75 @@ use App\Modules\Finance\Repository\CommUserInfoRepository;
         }
 
         //------------------------------区域买断流水---------------------------------------
+        //区
+        $UserInfoP1401= $this->getLevelUserInfo($UserInfoDepthList,"P1401");
+        if($UserInfoP1401['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,2);
+            $param['remark'] = '地区负责人奖励';
+            $param['process_id'] = $UserInfoP1401['user_id'];
+            $param['batch_detail_id'] = '3.4.5';
+            $BookingOrder['3.4.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("购物系统级分润:".json_encode($param));
 
+        }
+
+        //市
+        $UserInfoP1501= $this->getLevelUserInfo($UserInfoDepthList,"P1501");
+        if($UserInfoP1501['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,2);
+            $param['remark'] = '地区负责人奖励';
+            $param['process_id'] = $UserInfoP1501['user_id'];
+            $param['batch_detail_id'] = '3.4.6';
+            $BookingOrder['3.4.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("购物系统级分润:".json_encode($param));
+
+        }
+
+        //省
+        $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
+        if($UserInfoP1601['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,2);
+            $param['remark'] = '地区负责人奖励';
+            $param['process_id'] = $UserInfoP1601['user_id'];
+            $param['batch_detail_id'] = '3.4.7';
+            $BookingOrder['3.4.7'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("购物系统级分润:".json_encode($param));
+
+        }
+
+
+        //系统 暂用省代 代替 :::::   省代给与8%的绩效提成
+        $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
+        if($UserInfoP1601['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['system']);
+            $param['remark'] = '购物系统级分润';
+            $param['process_id'] = $UserInfoP1601['user_id'];
+            $param['batch_detail_id'] = '3.5';
+            $BookingOrder['3.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("购物系统级分润:".json_encode($param));
+
+        }
+
+        //P2301 总监管理提成
+        $UserInfoP2301= $this->getLevelUserInfo($UserInfoDepthList,"P2301");
+        if($UserInfoP2301['user_id']>0){
+            //*********
+            $param =[];
+            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['P2301']);
+            $param['remark'] = '总监管理提成';
+            $param['process_id'] = $UserInfoP2301['user_id'];
+            $param['batch_detail_id'] = '3.6';
+            $BookingOrder['3.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+            Log::info("总监管理提成:".json_encode($param));
+        }
         return $BookingOrder;
     }
 

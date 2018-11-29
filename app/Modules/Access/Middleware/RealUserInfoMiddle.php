@@ -9,6 +9,7 @@ namespace App\Modules\Access\Middleware;
 
 use App\Common\Contracts\Middleware;
 use App\Modules\Access\Repository\CommUserRepo;
+use App\Modules\Access\Service\CommonService;
 use Closure;
 
 class RealUserInfoMiddle extends Middleware{
@@ -20,9 +21,10 @@ class RealUserInfoMiddle extends Middleware{
     }
     public function handle($request, Closure $next)
     {
+        $user_name = app()->make(CommonService::class)->with('str',$request['userName'])->run('userTextEncode');
         $data = [
-//            'user_name'            => $request['userName'],
-            'crp_nm'               => $request['userName'],
+//            'user_name'            => $user_name,
+            'crp_nm'               => $user_name,
             'crp_id_type'          => $request['crpIdType'],
             'crp_id_no'            => $request['idNo'],
             'account_name'         => $request['accountName'],

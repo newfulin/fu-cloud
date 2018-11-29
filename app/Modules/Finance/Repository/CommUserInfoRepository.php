@@ -80,10 +80,10 @@ class CommUserInfoRepository extends Repository {
     public function getUserByTeam($user_id)
     {
         $ret = DB::select("SELECT 
-        t0.id,t0.user_id,t0.user_name,t0.status,t0.login_name,t0.level_id,t0.user_tariff_code,t0.level_name
-        FROM comm_user_info AS t0
+        t0.id,t0.user_id,t0.user_name,t0.status,t0.login_name,t0.level_id,t0.user_tariff_code,t0.level_name,t1.team_user_level
+        FROM comm_user_info AS t0 INNER JOIN team_relation AS t1 ON t0.user_id = t1.user_id
         WHERE FIND_IN_SET(t0.user_id,(SELECT tr.team_user_level FROM team_relation AS tr  WHERE tr.user_id  = '$user_id' ))
-        ORDER BY t0.id DESC ");
+        ORDER BY LENGTH(t1.team_user_level) DESC ");
         return json_decode(json_encode($ret),true);
     }
 

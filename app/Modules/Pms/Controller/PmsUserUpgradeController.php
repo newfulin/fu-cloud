@@ -24,6 +24,11 @@ class PmsUserUpgradeController extends Controller
                 'user_id' => 'required|desc:用户ID',
                 'tariff_code' => 'required|desc:升级等级',
                 'amount' => 'required|desc:金额'
+            ],
+            'pmsAreaUserUpgrade' => [
+                'user_id' => 'required|desc:用户ID',
+                'tariff_code' => 'required|desc:升级等级',
+                'amount' => 'required|desc:金额'
             ]
         ];
     }
@@ -42,4 +47,23 @@ class PmsUserUpgradeController extends Controller
             ->with('amount',$request->input('amount'))
             ->run('pmsUserUpgrade');
     }
+
+    /**
+     * @desc pms用户区代 升级
+     */
+    public function pmsAreaUserUpgrade(Request $request){
+        Log::info('pms 用户升级 user_id| ' . $request->input('user_id').' tariff_code | '.$request['tariff_code']);
+        Log::info('pms 用户升级 tariff_code| ' . $request['tariff_code']);
+        Log::info('pms 用户升级 amount| ' . $request['amount']);
+
+        return Pms::service('PmsUserUpgradeService')
+            ->with('user_id',$request->input('user_id'))
+            ->with('tariff_code',$request->input('tariff_code'))
+            ->with('amount',$request->input('amount'))
+            ->run('pmsAreaUserUpgrade');
+    }
+
+
+
+
 }

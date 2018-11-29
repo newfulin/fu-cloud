@@ -4,7 +4,9 @@ namespace App\Console;
 
 use App\Console\Commands\SwooleCommand;
 use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Support\Facades\Log;
 use Laravel\Lumen\Console\Kernel as ConsoleKernel;
+use App\Console\Commands\CreateOrderCommand;
 
 class Kernel extends ConsoleKernel
 {
@@ -15,6 +17,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         SwooleCommand::class,
+        CreateOrderCommand::class,
 
     ];
 
@@ -26,6 +29,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        //
+        Log::info('任务调度');
+        $schedule->command('order:create')
+            ->hourly()->between('8:00', '20:00');
     }
 }

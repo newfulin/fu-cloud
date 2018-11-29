@@ -26,4 +26,9 @@ class WxUserInfoRepo extends Repository
             ->first()
             )->toArray();
     }
+    public function update($userId, $attributes)
+    {
+        $attributes['nickname'] = $this->model->setNickNameAttribute($attributes['nickname']);
+        return $this->model->where('user_id',$userId)->update($attributes);
+    }
 }

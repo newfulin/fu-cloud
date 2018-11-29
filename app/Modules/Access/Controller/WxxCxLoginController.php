@@ -22,6 +22,7 @@ class WxxCxLoginController extends Controller
                 'code' => 'required|desc:微信code',
                 'iv' => 'required|desc:加密初始量',
                 'encryptedData' => 'required|desc:密文串',
+                'recommendId' => 'desc:推荐ID'
             ]
         ];
     }
@@ -36,6 +37,7 @@ class WxxCxLoginController extends Controller
             ->with('code',$request->input('code'))
             ->with('iv',$request->input('iv'))
             ->with('encryptedData',$request->input('encryptedData'))
+            ->with('recommendId',$request->input('recommendId'))
             ->run('handle');
     }
 }

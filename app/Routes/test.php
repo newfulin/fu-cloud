@@ -11,6 +11,7 @@ $router->group(['middleware' => []], function () use ($router) {
     $router->post('/test.updateTest', 'TestCacheController@updateTest');
     $router->post('/test.getToken', 'DemoController@getToken');
     $router->post('/test.cashier', 'FinanceController@cashier');
+    //$router->post('/test.negativePosting', 'FinanceController@negativePosting');
     $router->post('/test.bookingUpdate', 'BookkeepingUpdateController@bookingkupdate');
     $router->post('/test.testAfter', 'DemoController@testAfter');
     $router->post('/test.testFun', 'DemoController@testFun');

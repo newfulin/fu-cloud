@@ -32,13 +32,18 @@ class BillService extends Service
             ->with('user_id',$request['user_id'])
             ->run('getAllBalance');
         array_multisort(array_column($ret,'account_type'),SORT_ASC,$ret);
-        $allBalance = 0.00;
+
+//        $allBalance = 0.00;
+        $list['balance'] = '0.00';
         foreach($ret as $key => $val){
-            $allBalance += $val['balance'];
+//            $allBalance += $val['balance'];
             $ret[$key]['icon'] = config('common.assets_icon.'.$val['account_type'].'.icon');
+            if($val['account_type'] == config('const_account.ACCOUNT_TYPE_ASSET.code')) $list['balance'] = $val['balance'];
         }
         $list['list'] = $ret;
-        $list['allBalance'] = $ret[0]['balance'];
+        $list['allBalance'] = Finance::service('BalanceInfoService')
+            ->with('user_id',$request['user_id'])
+            ->run('getAllProfit');
         return $list;
     }
 
@@ -80,7 +85,17 @@ class BillService extends Service
         }
 
         if($request['amount'] < config('const_user.GETCASHRANGE')){
-            Err('最少提现金额为200元');
+            Err('最少提现金额为'.config('const_user.GETCASHRANGE').'元');
+        }
+
+        $balance = Finance::service('BalanceInfoService')
+            ->with('acct_code',$request['user_id'])
+            ->with('acct_type',config('finance.ACCOUNT_TYPE_ASSET.code'))
+            ->with('acct_obj',config('finance.ACCOUNT_OBJECT_USER.code'))
+            ->with('acct_id',1)
+            ->run('getBalance');
+        if($request['amount'] >= $balance){
+            Err('提现金额大于余额金额!');
         }
 
         return Trans::service('ChannelTrans')

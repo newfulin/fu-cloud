@@ -36,6 +36,22 @@ class WeChatController extends Controller
             ->run('nativePay');
         return $this->replyNotify();
     }
+    /**
+     * @desc 转售回调接口
+     */
+    public function Resale()
+    {
+        Log::info('转售订单回调开始');
+        $xml = file_get_contents('php://input','r');
+        Log::info('----------XML--------------'.$xml);
+        $data = $this->xmlToData($xml);
+        $data['time'] = date("Y-m-d H:i:s");
+        Log::info('--------------------------'.json_encode($data));
+        Callback::service('WeChatService')
+            ->with('data', $data)
+            ->run('Resale');
+        return $this->replyNotify();
+    }
 
     /**
      * 接收通知成功后应答输出XML数据
