@@ -236,7 +236,7 @@ if (!function_exists('makeJsContent')){
 if (! function_exists('getConfigure'))
 {
     function getConfigure($code,$key){
-        $ret = app(\App\Modules\Misc\Repository\CommCodeMasterRepo::class)
+        $ret = app(\App\Modules\Access\Repository\CommCodeMasterRepo::class)
             ->getConfigure($code,$key);
         $ret['code'] = $code;
         $ret['key'] = $key;

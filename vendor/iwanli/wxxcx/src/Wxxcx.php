@@ -20,9 +20,9 @@ class Wxxcx
      */
     function __construct()
     {
-        $master = getConfigure('wxconfig_program','wx');
-        $this->appId = $master['property2'];
-        $this->secret = $master['property3'];
+//        $master = getConfigure('wxconfig_program','wx');
+        $this->appId = config('wxxcx.appid', '');
+        $this->secret = config('wxxcx.secret', '');
         $this->code2session_url = config('wxxcx.code2session_url', '');
     }
 

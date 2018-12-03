@@ -39,17 +39,17 @@ class CreateWxInfoMiddle extends Middleware
             'unionid'    => $wxinfo['unionid'],
             'openid'     => $wxinfo['openid'],
             'nickname'   => $nickname,
-            'sex'        => $wxinfo['sex'],
+            'sex'        => $wxinfo['gender'],
             'city'       => $wxinfo['city'],
             'country'    => $wxinfo['country'],
-            'headimgurl' => $wxinfo['headimgurl'],
+            'headimgurl' => $wxinfo['avatarurl'],
             'user_id'    => $user_id
         ];
 
         $request['user_id'] = $user_id;
         $request['user_name'] = $nickname;
         $request['unionid'] = $wxinfo['unionid'];
-        $request['headimgurl'] = $wxinfo['headimgurl'];
+        $request['headimgurl'] = $wxinfo['avatarurl'];
         $request['openid'] = $wxinfo['openid'];
         $this->repo->insert($data);
         $request = $this->checkRecommend($request);

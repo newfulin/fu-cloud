@@ -1,0 +1,21 @@
+2018-11-20 17:15:51|15427053511507|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:16:08|15427053680122|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:16:35|15427053959951|192.168.1.149|Common.getProvinceList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '0' order by `sort` asc
+2018-11-20 17:17:04|15427054241099|192.168.1.149|Rights.getLevelRights|INFO|获取等级权益
+2018-11-20 17:17:04|15427054241099|192.168.1.149|Rights.getLevelRights|ERROR|Class App\Modules\Misc\Repository\CommCodeMasterRepo does not exist
+2018-11-20 17:17:05|15427054256923|192.168.1.149|Rights.getLevelRights|INFO|获取等级权益
+2018-11-20 17:17:05|15427054256923|192.168.1.149|Rights.getLevelRights|ERROR|Class App\Modules\Misc\Repository\CommCodeMasterRepo does not exist
+2018-11-20 17:17:42|15427054625556|192.168.1.149|test.updateTest|INFO|-------------获取上传文件数据[]
+2018-11-20 17:17:42|15427054625556|192.168.1.149|test.updateTest|ERROR|文件上传失败!
+2018-11-20 17:20:11|15427056118113|192.168.1.149|test.updateTest|INFO|-------------获取上传文件数据[]
+2018-11-20 17:20:11|15427056118113|192.168.1.149|test.updateTest|ERROR|文件上传失败!
+2018-11-20 17:20:15|15427056159699|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:20:16|15427056168510|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:20:20|15427056200408|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:20:20|15427056209283|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:20:21|15427056216179|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:20:22|15427056222258|192.168.1.149|Common.getSupportBankList|INFO|select `id`, `bank_id`, `bank_name` from `comm_support_bank_info` where `status` = '1'
+2018-11-20 17:20:44|15427056449287|192.168.1.149|Common.getProvinceList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '0' order by `sort` asc
+2018-11-20 17:21:32|15427056922466|192.168.1.149|Common.getCityList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '1' and `status` = '1' order by `sort` asc
+2018-11-20 17:21:36|15427056961991|192.168.1.149|Common.getCityList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '12' and `status` = '1' order by `sort` asc
+2018-11-20 17:21:42|15427057024067|192.168.1.149|Common.getCityList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '14' and `status` = '1' order by `sort` asc
