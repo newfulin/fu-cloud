@@ -1,263 +1,265 @@
 <?php
 namespace App\Modules\Finance\Cashier;
 
-use Illuminate\Support\Facades\Log;
 use App\Modules\Finance\Repository\CommUserInfoRepository;
+use Illuminate\Support\Facades\Log;
+
 /**
  * 订单支付分润
- * @desr 省代临时担任系统的角色
+ * @desr 原系统->省代临时担任系统的角色
+ * @desc 现系统->分两级,直推/间推
+ * 根据配置文件获取商品分润比例,直推/间推分润比例
  */
 
- class K0600 extends K0000 {
+class K0600 extends K0000 {
 
-    /**
-     * 分润比例设定
-     */
-    public $shareProfit = array(
-        'direct'    => 2,//直推分润,
-        'indirect'  => 2,//间接分润,
-        'top'       => 2,//顶级分润,
+	/**
+	 * 分润比例设定
+	 */
+	public $shareProfit = array(
+		'direct' => 70, //直推分润,
+		'indirect' => 30, //间接分润,
+		'top' => 0, //顶级分润,
 
-        'P1201'     => 12,//VIP
-        'P1301'     => 15, //总代理
-        'P1311'     => 18, //合伙人
-        'P1401'     => 21,//区代
-        'P1501'     => 21,//市代
-        'P1601'     => 21, //省代
+		'P1201' => 0, //VIP
+		'P1301' => 0, //总代理
+		'P1311' => 0, //合伙人
+		'P1401' => 0, //区代
+		'P1501' => 0, //市代
+		'P1601' => 0, //省代
 
-        'system'    => 8,//平台里面的系统角色
+		'system' => 0, //平台里面的系统角色
 
-        'P2101'     => 0, //招商经理
-        'P2201'     => 0, //销售经理
-        'P2301'     => 2, //市场总监
-    );
+		'P2101' => 0, //招商经理
+		'P2201' => 0, //销售经理
+		'P2301' => 0, //市场总监
+	);
 
 //        'seniorExecutive'=> 1, //高管    ----  18800001001
-//        'technology'     => 1, //技术部   ----  18800001101
-//        'finance'        => 1, //财务部   ----  18800001201
-//        'marketAdmin'    => 1, //讲师市场管理员  -- 18800001301
-//        'generalOffice'  => 1  //总经办  --     18800001401
+	//        'technology'     => 1, //技术部   ----  18800001101
+	//        'finance'        => 1, //财务部   ----  18800001201
+	//        'marketAdmin'    => 1, //讲师市场管理员  -- 18800001301
+	//        'generalOffice'  => 1  //总经办  --     18800001401
 
-    public $repository;
-    public $goReps;
-    public $code = "K0600";
+	public $repository;
+	public $goReps;
+	public $code = "K0600";
 
-    /**
-     * 注入Repository
-     */
-    public function  __construct(CommUserInfoRepository $Repository ){
-         $this->repository = $Repository;
-         //$this->getShareProfit($this->code);
-    }
+	/**
+	 * 注入Repository
+	 */
+	public function __construct(CommUserInfoRepository $Repository) {
+		$data = config('common.share_profit');
+		$this->shareProfit['direct'] = $data['parent1_ratio'];
+		$this->shareProfit['indirect'] = $data['parent2_ratio'];
 
+		$this->repository = $Repository;
+		//$this->getShareProfit($this->code);
+	}
 
-    
-    /**
-     * 
-     */
-    public function handle($markBookingOrder,$request)
-    {
-        Log::debug("Cashier::K0600.handle...订单支付分润");
-        $BookingOrder = [];
-        //$order = $request['order'];
-        $goodOrder= $request['goodOrder'];
-        Log::debug(json_encode($goodOrder));
-        $transAmount = $goodOrder['promote_profit'];//可分润金额
-        Log::debug("可分润金额:".$transAmount);
-        $userinfo = $request['userinfo'];
-        $userId = $userinfo['user_id'];
-        $user_tariff_code = $userinfo['user_tariff_code'];
-        //$codeLevel =$this->getCodeLevel($user_tariff_code);
+	/**
+	 *
+	 */
+	public function handle($markBookingOrder, $request) {
+		Log::debug("Cashier::K0600.handle...订单支付分润");
+		$BookingOrder = [];
+		//$order = $request['order'];
+		$goodOrder = $request['goodOrder'];
+		Log::debug(json_encode($goodOrder));
+		// $transAmount = $goodOrder['promote_profit']; //可分润金额
+		$transAmount = Money()->mul($request['goodOrder']['total_price'], (config('common.share_profit.profit_ratio') / 100));
 
-        $teamRelation = $this->repository->getTeamRelation($userId);
-        Log::debug(json_encode($teamRelation));
+		Log::debug("可分润金额:" . $transAmount);
+		$userinfo = $request['userinfo'];
+		$userId = $userinfo['user_id'];
+		$user_tariff_code = $userinfo['user_tariff_code'];
+		//$codeLevel =$this->getCodeLevel($user_tariff_code);
 
-        //直推用户
-        $parent1UserInfo = $this->repository->getEntity($teamRelation['parent1']);
-        if($this->compareCode($parent1UserInfo['user_tariff_code'],$user_tariff_code)){
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['direct']);
-            $param['remark'] = '购物推广广告费';
-            $param['process_id'] = $teamRelation['parent1']; //直推用户
-            $param['batch_detail_id'] = '3.1';
-            $BookingOrder['3.1'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("直推用户:".json_encode($param));
-        }
+		$teamRelation = $this->repository->getTeamRelation($userId);
+		Log::debug(json_encode($teamRelation));
 
-        //间推用户
-        $parent2UserInfo = $this->repository->getEntity($teamRelation['parent2']);
-        if($this->compareCode($parent2UserInfo['user_tariff_code'],$user_tariff_code)){
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['indirect']);
-            $param['remark'] = '购物推广广告费';
-            $param['process_id'] = $teamRelation['parent2']; //间推用户
-            $param['batch_detail_id'] = '3.2';
-            $BookingOrder['3.2'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("间推用户:".json_encode($param));
-        }
+		//直推用户
+		$parent1UserInfo = $this->repository->getEntity($teamRelation['parent1']);
+		if ($this->compareCode($parent1UserInfo['user_tariff_code'], $user_tariff_code)) {
+			$param = [];
+			$param['credit_amount'] = Money()->getRate($transAmount, $this->shareProfit['direct']);
+			$param['remark'] = '购物推广广告费';
+			$param['process_id'] = $teamRelation['parent1']; //直推用户
+			$param['batch_detail_id'] = '3.1';
+			$BookingOrder['3.1'] = $this->getBranchBookingOrder($markBookingOrder, $param);
+			Log::info("直推用户:" . json_encode($param));
+		}
 
-        //顶推用户
-        $parent3UserInfo = $this->repository->getEntity($teamRelation['parent3']);
-        Log::info($parent3UserInfo['user_tariff_code']);
-        if($this->compareCode($parent3UserInfo['user_tariff_code'],$user_tariff_code)){
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['top']);
-            $param['remark'] = '购物推广广告费';
-            $param['process_id'] = $teamRelation['parent3']; //间推用户
-            $param['batch_detail_id'] = '3.3';
-            $BookingOrder['3.3'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("顶推用户|".json_encode($param));
-        }
+		//间推用户
+		$parent2UserInfo = $this->repository->getEntity($teamRelation['parent2']);
+		if ($this->compareCode($parent2UserInfo['user_tariff_code'], $user_tariff_code)) {
+			$param = [];
+			$param['credit_amount'] = Money()->getRate($transAmount, $this->shareProfit['indirect']);
+			$param['remark'] = '购物推广广告费';
+			$param['process_id'] = $teamRelation['parent2']; //间推用户
+			$param['batch_detail_id'] = '3.2';
+			$BookingOrder['3.2'] = $this->getBranchBookingOrder($markBookingOrder, $param);
+			Log::info("间推用户:" . json_encode($param));
+		}
 
-        //------------------------------级差收益---------------------------------------
-        $rangePercentage = 0.00;//分出比例
-        $UserInfoDepthList = $this->repository->getUserByTeam($userId);
-        $UserInfo['depth'] = 0;
-        $UserInfo['rangePercentage'] = $rangePercentage;
-        $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
-        if($UserInfo&&isset($UserInfo['BookingOrder'])){
-            if(isset($UserInfo['BookingOrder']))
-                $BookingOrder['3.4.1'] = $UserInfo['BookingOrder'];
-            $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
-        }
-        if($UserInfo){
-            if(isset($UserInfo['BookingOrder']))
-                $BookingOrder['3.4.2'] = $UserInfo['BookingOrder'];
-            $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
-        }
-        if($UserInfo){
-            if(isset($UserInfo['BookingOrder']))
-                $BookingOrder['3.4.3'] = $UserInfo['BookingOrder'];
-            $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
-        }
-        if($UserInfo&&isset($UserInfo['BookingOrder'])){
-            $BookingOrder['3.4.4'] = $UserInfo['BookingOrder'];
-        }
+		// //顶推用户
+		// $parent3UserInfo = $this->repository->getEntity($teamRelation['parent3']);
+		// Log::info($parent3UserInfo['user_tariff_code']);
+		// if($this->compareCode($parent3UserInfo['user_tariff_code'],$user_tariff_code)){
+		//     $param =[];
+		//     $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['top']);
+		//     $param['remark'] = '购物推广广告费';
+		//     $param['process_id'] = $teamRelation['parent3']; //间推用户
+		//     $param['batch_detail_id'] = '3.3';
+		//     $BookingOrder['3.3'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+		//     Log::info("顶推用户|".json_encode($param));
+		// }
 
-        //------------------------------区域买断流水---------------------------------------
-        //区
-        $UserInfoP1401= $this->getLevelUserInfo($UserInfoDepthList,"P1401");
-        if($UserInfoP1401['user_id']>0){
-            //*********
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,2);
-            $param['remark'] = '地区负责人奖励';
-            $param['process_id'] = $UserInfoP1401['user_id'];
-            $param['batch_detail_id'] = '3.4.5';
-            $BookingOrder['3.4.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("购物系统级分润:".json_encode($param));
+		// //------------------------------级差收益---------------------------------------
+		// $rangePercentage = 0.00;//分出比例
+		// $UserInfoDepthList = $this->repository->getUserByTeam($userId);
+		// $UserInfo['depth'] = 0;
+		// $UserInfo['rangePercentage'] = $rangePercentage;
+		// $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
+		// if($UserInfo&&isset($UserInfo['BookingOrder'])){
+		//     if(isset($UserInfo['BookingOrder']))
+		//         $BookingOrder['3.4.1'] = $UserInfo['BookingOrder'];
+		//     $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
+		// }
+		// if($UserInfo){
+		//     if(isset($UserInfo['BookingOrder']))
+		//         $BookingOrder['3.4.2'] = $UserInfo['BookingOrder'];
+		//     $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
+		// }
+		// if($UserInfo){
+		//     if(isset($UserInfo['BookingOrder']))
+		//         $BookingOrder['3.4.3'] = $UserInfo['BookingOrder'];
+		//     $UserInfo = $this->getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder);
+		// }
+		// if($UserInfo&&isset($UserInfo['BookingOrder'])){
+		//     $BookingOrder['3.4.4'] = $UserInfo['BookingOrder'];
+		// }
 
-        }
+		// //------------------------------区域买断流水---------------------------------------
+		// //区
+		// $UserInfoP1401= $this->getLevelUserInfo($UserInfoDepthList,"P1401");
+		// if($UserInfoP1401['user_id']>0){
+		//     //*********
+		//     $param =[];
+		//     $param['credit_amount'] = Money()->getRate($transAmount,2);
+		//     $param['remark'] = '地区负责人奖励';
+		//     $param['process_id'] = $UserInfoP1401['user_id'];
+		//     $param['batch_detail_id'] = '3.4.5';
+		//     $BookingOrder['3.4.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+		//     Log::info("购物系统级分润:".json_encode($param));
 
-        //市
-        $UserInfoP1501= $this->getLevelUserInfo($UserInfoDepthList,"P1501");
-        if($UserInfoP1501['user_id']>0){
-            //*********
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,2);
-            $param['remark'] = '地区负责人奖励';
-            $param['process_id'] = $UserInfoP1501['user_id'];
-            $param['batch_detail_id'] = '3.4.6';
-            $BookingOrder['3.4.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("购物系统级分润:".json_encode($param));
+		// }
 
-        }
+		// //市
+		// $UserInfoP1501= $this->getLevelUserInfo($UserInfoDepthList,"P1501");
+		// if($UserInfoP1501['user_id']>0){
+		//     //*********
+		//     $param =[];
+		//     $param['credit_amount'] = Money()->getRate($transAmount,2);
+		//     $param['remark'] = '地区负责人奖励';
+		//     $param['process_id'] = $UserInfoP1501['user_id'];
+		//     $param['batch_detail_id'] = '3.4.6';
+		//     $BookingOrder['3.4.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+		//     Log::info("购物系统级分润:".json_encode($param));
 
-        //省
-        $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
-        if($UserInfoP1601['user_id']>0){
-            //*********
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,2);
-            $param['remark'] = '地区负责人奖励';
-            $param['process_id'] = $UserInfoP1601['user_id'];
-            $param['batch_detail_id'] = '3.4.7';
-            $BookingOrder['3.4.7'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("购物系统级分润:".json_encode($param));
+		// }
 
-        }
+		// //省
+		// $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
+		// if($UserInfoP1601['user_id']>0){
+		//     //*********
+		//     $param =[];
+		//     $param['credit_amount'] = Money()->getRate($transAmount,2);
+		//     $param['remark'] = '地区负责人奖励';
+		//     $param['process_id'] = $UserInfoP1601['user_id'];
+		//     $param['batch_detail_id'] = '3.4.7';
+		//     $BookingOrder['3.4.7'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+		//     Log::info("购物系统级分润:".json_encode($param));
 
+		// }
 
-        //系统 暂用省代 代替 :::::   省代给与8%的绩效提成
-        $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
-        if($UserInfoP1601['user_id']>0){
-            //*********
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['system']);
-            $param['remark'] = '购物系统级分润';
-            $param['process_id'] = $UserInfoP1601['user_id'];
-            $param['batch_detail_id'] = '3.5';
-            $BookingOrder['3.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("购物系统级分润:".json_encode($param));
+		// //系统 暂用省代 代替 :::::   省代给与8%的绩效提成
+		// $UserInfoP1601= $this->getLevelUserInfo($UserInfoDepthList,"P1601");
+		// if($UserInfoP1601['user_id']>0){
+		//     //*********
+		//     $param =[];
+		//     $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['system']);
+		//     $param['remark'] = '购物系统级分润';
+		//     $param['process_id'] = $UserInfoP1601['user_id'];
+		//     $param['batch_detail_id'] = '3.5';
+		//     $BookingOrder['3.5'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+		//     Log::info("购物系统级分润:".json_encode($param));
 
-        }
+		// }
 
-        //P2301 总监管理提成
-        $UserInfoP2301= $this->getLevelUserInfo($UserInfoDepthList,"P2301");
-        if($UserInfoP2301['user_id']>0){
-            //*********
-            $param =[];
-            $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['P2301']);
-            $param['remark'] = '总监管理提成';
-            $param['process_id'] = $UserInfoP2301['user_id'];
-            $param['batch_detail_id'] = '3.6';
-            $BookingOrder['3.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
-            Log::info("总监管理提成:".json_encode($param));
-        }
-        return $BookingOrder;
-    }
+		// //P2301 总监管理提成
+		// $UserInfoP2301= $this->getLevelUserInfo($UserInfoDepthList,"P2301");
+		// if($UserInfoP2301['user_id']>0){
+		//     //*********
+		//     $param =[];
+		//     $param['credit_amount'] = Money()->getRate($transAmount,$this->shareProfit['P2301']);
+		//     $param['remark'] = '总监管理提成';
+		//     $param['process_id'] = $UserInfoP2301['user_id'];
+		//     $param['batch_detail_id'] = '3.6';
+		//     $BookingOrder['3.6'] = $this->getBranchBookingOrder($markBookingOrder,$param);
+		//     Log::info("总监管理提成:".json_encode($param));
+		// }
+		return $BookingOrder;
+	}
 
-     /**
-      * 级差深度分润明细
-      * @param $UserInfoDepthList
-      * @param $UserInfo
-      * @param $transAmount
-      * @return null
-      */
-    protected function getDepthBookingOrder($UserInfoDepthList,$UserInfo,$transAmount,$markBookingOrder){
+	/**
+	 * 级差深度分润明细
+	 * @param $UserInfoDepthList
+	 * @param $UserInfo
+	 * @param $transAmount
+	 * @return null
+	 */
+	protected function getDepthBookingOrder($UserInfoDepthList, $UserInfo, $transAmount, $markBookingOrder) {
 
-        $depth = $UserInfo['depth'];
-        $rangePercentage = $UserInfo['rangePercentage'];//已分润系数
-        $UserInfo = $this->getNextLevelUserInfo($UserInfoDepthList,'P1201',$depth);//级差收益
-        Log::info("级差深度分润明细.3.4.".($depth+1)."级差收益:".json_encode($UserInfo));
-        if($UserInfo){
-            $param =[];
-            //当前用户级差分润为我的分润系数减去已分润系数.,如果大于0,当前用户能享受分润
-            $creditPercentage = Money()->calc($this->shareProfit[$UserInfo['user_tariff_code']],"-",$rangePercentage);//当前用户分润系数
-            if($creditPercentage>0){
-                $credit_amount = Money()->getRate($transAmount,$creditPercentage);
-                $param['credit_amount'] = $credit_amount;
-                $param['percentage'] = $creditPercentage;
-                $param['remark'] = '购物推广管理费';
-                $param['process_id'] = $UserInfo['user_id'];
-                $param['batch_detail_id'] = '3.4.'.$depth;
-                $UserInfo['rangePercentage'] = Money()->calc($rangePercentage,"+",$creditPercentage);
-                Log::info($param['remark']."::".json_encode($param));
-                $UserInfo['BookingOrder']= $this->getBranchBookingOrder($markBookingOrder,$param);
-            }else{
-                Log::debug("下级高于自己的级别 -无法分润-  级差收益:".$creditPercentage);
-                $UserInfo['rangePercentage'] = $rangePercentage;
-                Log::debug("未来这里要刺激用户升级!!");
-            }
+		$depth = $UserInfo['depth'];
+		$rangePercentage = $UserInfo['rangePercentage']; //已分润系数
+		$UserInfo = $this->getNextLevelUserInfo($UserInfoDepthList, 'P1201', $depth); //级差收益
+		Log::info("级差深度分润明细.3.4." . ($depth + 1) . "级差收益:" . json_encode($UserInfo));
+		if ($UserInfo) {
+			$param = [];
+			//当前用户级差分润为我的分润系数减去已分润系数.,如果大于0,当前用户能享受分润
+			$creditPercentage = Money()->calc($this->shareProfit[$UserInfo['user_tariff_code']], "-", $rangePercentage); //当前用户分润系数
+			if ($creditPercentage > 0) {
+				$credit_amount = Money()->getRate($transAmount, $creditPercentage);
+				$param['credit_amount'] = $credit_amount;
+				$param['percentage'] = $creditPercentage;
+				$param['remark'] = '购物推广管理费';
+				$param['process_id'] = $UserInfo['user_id'];
+				$param['batch_detail_id'] = '3.4.' . $depth;
+				$UserInfo['rangePercentage'] = Money()->calc($rangePercentage, "+", $creditPercentage);
+				Log::info($param['remark'] . "::" . json_encode($param));
+				$UserInfo['BookingOrder'] = $this->getBranchBookingOrder($markBookingOrder, $param);
+			} else {
+				Log::debug("下级高于自己的级别 -无法分润-  级差收益:" . $creditPercentage);
+				$UserInfo['rangePercentage'] = $rangePercentage;
+				Log::debug("未来这里要刺激用户升级!!");
+			}
 
-        }
-        return $UserInfo;
-    }
+		}
+		return $UserInfo;
+	}
 
-     /**
-      * 获取分润参数,通过数据字典设置
-      */
-     protected function getShareProfit($code){
+	/**
+	 * 获取分润参数,通过数据字典设置
+	 */
+	protected function getShareProfit($code) {
 
-        foreach($this->shareProfit as $k => $v ){
-            $ret = getConfigure($code,$k);
-            //Log::debug(json_encode($ret));
-            $this->shareProfit[$k]=$ret['property2'];
-        }
-        Log::debug(json_encode($this->shareProfit));
-     }
+		foreach ($this->shareProfit as $k => $v) {
+			$ret = getConfigure($code, $k);
+			//Log::debug(json_encode($ret));
+			$this->shareProfit[$k] = $ret['property2'];
+		}
+		Log::debug(json_encode($this->shareProfit));
+	}
 
-
-
-
- }
+}
