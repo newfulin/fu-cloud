@@ -6,7 +6,6 @@ use App\Common\Contracts\Repository;
 use App\Common\Models\GoodsInfo;
 use App\Modules\Transfer\Transfer;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 class GoodsInfoRepo extends Repository
 {
@@ -14,6 +13,7 @@ class GoodsInfoRepo extends Repository
     {
         $this->model = $model;
     }
+
     // 获取分享信息
     public function getShareInfo($id)
     {
@@ -156,7 +156,7 @@ class GoodsInfoRepo extends Repository
             $this->model->select('id','img','img_list','name','introduce','price', 'sales','create_time','original_price','province','city')
                         ->where('highlight','10')
                         ->where('status', '10')
-                        ->where('goods_class', '10')
+//                        ->where('goods_class', '10')
                         ->orderBy('update_time','desc')
                         ->paginate($request['pageSize']))
                         ->toArray();
@@ -209,7 +209,7 @@ class GoodsInfoRepo extends Repository
     public function getSearchName($request)
     {
         $ret = optional(
-            $this->model->select('id','name')
+            $this->model->select('id','name','img')
                 ->where('name','like','%'.$request['key_word'].'%')
                 ->where('goods_class',$request['goodsClass'])
                 ->where('status', '10')
@@ -217,4 +217,19 @@ class GoodsInfoRepo extends Repository
             ->toArray();
         return $ret;
     }
+
+
+    public function getStoreStatusByGoodsID($request){
+
+        $ret = optional(
+            DB::table('store as t0')
+                ->select('t0.status')
+                ->leftJoin('goods_info as t1',function ($join){
+                    $join->on('t1.store_id','=','t0.id');
+                })
+                ->where('t1.id','=',$request['id'])
+                ->first());
+        return $ret;
+    }
+
 }

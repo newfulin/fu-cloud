@@ -1,0 +1,242 @@
+2018-12-20 19:26:36|15453051968519|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:26:36|15453051968519|192.168.1.118|Goods.getGoodsInfo|INFO|select `store`.`status` from `store` left join `goods_info` on `store`.`id` = `goods_info`.`store_id` where `goods_info`.`id` = '1181318036519440640'
+2018-12-20 19:26:36|15453051968519|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:26:36|15453051968519|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:26:36|15453051968519|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '15', `update_time` = '2018-12-20 19:26:36' where `id` = '1181318036519440640'
+2018-12-20 19:27:43|15453052630876|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:27:43|15453052630876|192.168.1.118|Goods.getGoodsInfo|INFO|select `store`.`status` from `store` left join `goods_info` on `goods_info`.`store_id` = `store`.`id` where `goods_info`.`id` = '1181318036519440640'
+2018-12-20 19:27:43|15453052630876|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:27:43|15453052630876|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:27:43|15453052630876|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '16', `update_time` = '2018-12-20 19:27:43' where `id` = '1181318036519440640'
+2018-12-20 19:27:51|15453052713820|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:27:51|15453052713820|192.168.1.118|Goods.getGoodsInfo|INFO|select `store`.`status` from `store` left join `goods_info` on `goods_info`.`store_id` = `store`.`id` where `goods_info`.`id` = '1181318036519440640'
+2018-12-20 19:27:51|15453052713820|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:27:51|15453052713820|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:27:51|15453052713820|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '17', `update_time` = '2018-12-20 19:27:51' where `id` = '1181318036519440640'
+2018-12-20 19:28:23|15453053038523|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:28:23|15453053038523|192.168.1.118|Goods.getGoodsInfo|INFO|select `store`.`status` from `store` left join `goods_info` on `goods_info`.`store_id` = `store`.`id` where `goods_info`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:28:23|15453053038523|192.168.1.118|Goods.getGoodsInfo|ERROR|Call to undefined method stdClass::toArray()
+2018-12-20 19:28:35|15453053150242|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:28:35|15453053150242|192.168.1.118|Goods.getGoodsInfo|INFO|select `store`.`status` from `store` left join `goods_info` on `goods_info`.`store_id` = `store`.`id` where `goods_info`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:28:35|15453053150242|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:28:35|15453053150242|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:28:35|15453053150242|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '18', `update_time` = '2018-12-20 19:28:34' where `id` = '1181318036519440640'
+2018-12-20 19:28:54|15453053348083|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:28:54|15453053348083|192.168.1.118|Goods.getGoodsInfo|INFO|select `store`.`status` from `store` left join `goods_info` on `goods_info`.`store_id` = `store`.`id` where `goods_info`.`id` = '1181318036519440640'
+2018-12-20 19:28:54|15453053348083|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:28:54|15453053348083|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:28:54|15453053348083|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '19', `update_time` = '2018-12-20 19:28:54' where `id` = '1181318036519440640'
+2018-12-20 19:31:28|15453054885800|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:31:28|15453054885800|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640'
+2018-12-20 19:31:28|15453054885800|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:31:28|15453054885800|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:31:28|15453054885800|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '20', `update_time` = '2018-12-20 19:31:28' where `id` = '1181318036519440640'
+2018-12-20 19:32:10|15453055301046|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:32:18|15453055386133|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:32:18|15453055386133|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640'
+2018-12-20 19:32:18|15453055386133|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:32:18|15453055386133|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:32:18|15453055386133|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '21', `update_time` = '2018-12-20 19:32:18' where `id` = '1181318036519440640'
+2018-12-20 19:32:58|15453055787489|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:32:58|15453055787489|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t0`.`id` = `t1`.`store_id` where `t1`.`id` = '1181318036519440640'
+2018-12-20 19:32:58|15453055787489|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:32:58|15453055787489|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:32:58|15453055787489|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '22', `update_time` = '2018-12-20 19:32:58' where `id` = '1181318036519440640'
+2018-12-20 19:34:12|15453056522914|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:34:12|15453056522914|192.168.1.118|Goods.getGoodsInfo|INFO|select * from `store` as `t0` left join `goods_info` as `t1` on `t0`.`id` = `t1`.`store_id` where `t1`.`id` = '1181318036519440640'
+2018-12-20 19:34:12|15453056522914|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:34:12|15453056522914|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:34:12|15453056522914|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '23', `update_time` = '2018-12-20 19:34:12' where `id` = '1181318036519440640'
+2018-12-20 19:34:21|15453056615564|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:34:21|15453056615564|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t0`.`id` = `t1`.`store_id` where `t1`.`id` = '1181318036519440640'
+2018-12-20 19:34:21|15453056615564|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:34:21|15453056615564|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:34:21|15453056615564|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '24', `update_time` = '2018-12-20 19:34:21' where `id` = '1181318036519440640'
+2018-12-20 19:44:00|15453062404309|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:44:00|15453062404309|192.168.1.118|Goods.getGoodsInfo|ERROR|SQLSTATE[42S22]: Column not found: 1054 Unknown column 't1.store_id' in 'on clause' (SQL: select `t0`.`status` from `goods_info` as `t0` left join `store` as `t1` on `t0`.`id` = `t1`.`store_id` where `t1`.`id` = 1181318036519440640)
+2018-12-20 19:44:11|15453062514359|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:44:11|15453062514359|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `goods_info` as `t0` left join `store` as `t1` on `t1`.`id` = `t0`.`store_id` where `t1`.`id` = '1181318036519440640'
+2018-12-20 19:44:11|15453062514359|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:44:11|15453062514359|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:44:11|15453062514359|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '25', `update_time` = '2018-12-20 19:44:11' where `id` = '1181318036519440640'
+2018-12-20 19:44:36|15453062761524|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:44:36|15453062761524|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`status` from `goods_info` as `t0` left join `store` as `t1` on `t0`.`store_id` = `t1`.`id` where `t0`.`id` = '1181318036519440640'
+2018-12-20 19:44:36|15453062761524|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 19:44:36|15453062761524|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 19:44:36|15453062761524|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '26', `update_time` = '2018-12-20 19:44:36' where `id` = '1181318036519440640'
+2018-12-20 19:52:53|15453067733430|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:52:53|15453067733430|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:53:11|15453067917821|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:53:11|15453067917821|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:53:11|15453067917821|192.168.1.118|Goods.getGoodsInfo|ERROR|Call to undefined method stdClass::toArray()
+2018-12-20 19:53:30|15453068108681|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:53:30|15453068108681|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:53:35|15453068156715|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:53:35|15453068156715|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:55:27|15453069276067|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:55:27|15453069276067|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:55:46|15453069467514|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:55:46|15453069467514|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:55:51|15453069514982|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:55:51|15453069514982|192.168.1.118|Goods.getGoodsInfo|ERROR|Call to undefined method App\Modules\Access\Repository\GoodsInfoRepo::让getStoreStatusByGoodsID()
+2018-12-20 19:56:01|15453069616767|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:56:01|15453069616767|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:56:19|15453069791905|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:56:19|15453069791905|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:56:19|15453069791905|192.168.1.118|Goods.getGoodsInfo|ERROR|Call to undefined method stdClass::toArray()
+2018-12-20 19:56:27|15453069876931|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:56:27|15453069876931|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:56:37|15453069971108|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:56:37|15453069971108|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:56:37|15453069971108|192.168.1.118|Goods.getGoodsInfo|ERROR|Undefined property: stdClass::$value
+2018-12-20 19:59:18|15453071585890|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 19:59:18|15453071585890|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 19:59:18|15453071585890|192.168.1.118|Goods.getGoodsInfo|ERROR|json_decode() expects parameter 1 to be string, object given
+2018-12-20 20:00:59|15453072599153|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:00:59|15453072599153|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:01:11|15453072714200|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:01:11|15453072714200|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:01:37|15453072972638|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:01:37|15453072972638|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:01:37|15453072972638|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 20:01:37|15453072972638|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 20:01:37|15453072972638|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '27', `update_time` = '2018-12-20 20:01:37' where `id` = '1181318036519440640'
+2018-12-20 20:02:05|15453073255701|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:02:05|15453073255701|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:02:05|15453073255701|192.168.1.118|Goods.getGoodsInfo|ERROR|店铺已关闭
+2018-12-20 20:02:15|15453073353251|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:02:15|15453073353251|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:02:15|15453073353251|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 20:02:15|15453073353251|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 20:02:15|15453073353251|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '28', `update_time` = '2018-12-20 20:02:15' where `id` = '1181318036519440640'
+2018-12-20 20:02:25|15453073452472|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:02:25|15453073452472|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:02:25|15453073452472|192.168.1.118|Goods.getGoodsInfo|ERROR|店铺已关闭
+2018-12-20 20:03:01|15453073810805|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:03:01|15453073810805|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:03:01|15453073810805|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 20:03:01|15453073810805|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 20:03:01|15453073810805|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '29', `update_time` = '2018-12-20 20:03:01' where `id` = '1181318036519440640'
+2018-12-20 20:05:27|15453075274098|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:05:27|15453075274098|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:05:27|15453075274098|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 20:05:27|15453075274098|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 20:05:27|15453075274098|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '30', `update_time` = '2018-12-20 20:05:27' where `id` = '1181318036519440640'
+2018-12-20 20:05:43|15453075432595|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:05:43|15453075432595|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:05:43|15453075432595|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 20:05:43|15453075432595|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 20:05:43|15453075432595|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '31', `update_time` = '2018-12-20 20:05:43' where `id` = '1181318036519440640'
+2018-12-20 20:06:36|15453075962193|192.168.1.118|Goods.getGoodsInfo|INFO|-----------------------{"id":"1181318036519440640"}
+2018-12-20 20:06:36|15453075962193|192.168.1.118|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1181318036519440640' limit 1
+2018-12-20 20:06:36|15453075962193|192.168.1.118|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1181318036519440640' and `t0`.`state` in ('20', '25', '60')
+2018-12-20 20:06:36|15453075962193|192.168.1.118|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1181318036519440640' limit 1
+2018-12-20 20:06:36|15453075962193|192.168.1.118|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '32', `update_time` = '2018-12-20 20:06:36' where `id` = '1181318036519440640'
+2018-12-20 20:47:37|15453100574168||/|ERROR|Undefined index: HTTP_HOST
+2018-12-20 22:02:19|15453145395999|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:02:19|15453145396276|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:24:14|15453158549069|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:24:14|15453158549162|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:24:37|15453158776908|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:24:37|15453158777682|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:24:41|15453158813177|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:24:41|15453158813229|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:26:58|15453160187424|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:26:58|15453160188832|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:31:02|15453162624026|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:31:02|15453162624226|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:31:30|15453162904962|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:31:30|15453162905075|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:32:07|15453163270371|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:32:07|15453163270461|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:33:15|15453163958238|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:33:15|15453163958666|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:36:21|15453165817577|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:36:21|15453165817903|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:36:32|15453165926841|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:36:32|15453165926943|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:39:47|15453167875972|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:39:47|15453167876876|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:40:22|15453168220345|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:40:22|15453168222185|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:40:42|15453168423373|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:40:42|15453168424502|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:40:52|15453168523061|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:40:52|15453168523867|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:43:52|15453170327999|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:43:52|15453170328331|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:44:13|15453170531431|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:44:13|15453170531826|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:44:33|15453170734813|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:44:35|15453170759106|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:44:35|15453170759978|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:44:45|15453170852366|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:44:45|15453170853412|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:44:57|15453170970849|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:44:57|15453170970930|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:45:16|15453171165022|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:45:16|15453171166097|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:45:21|15453171213654|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:45:21|15453171214554|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:45:28|15453171285195|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:45:28|15453171285606|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:46:42|15453172029942|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:46:43|15453172031319|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:47:56|15453172760274|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:47:56|15453172761813|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:47:58|15453172780444|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:47:58|15453172781751|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:49:23|15453173636233|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:49:23|15453173636367|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:49:43|15453173838594|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:49:43|15453173839542|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:52:21|15453175415066|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:52:21|15453175415158|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:54:04|15453176446633|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:54:04|15453176447531|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:54:35|15453176752131|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:54:35|15453176752202|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:54:41|15453176817032|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:54:41|15453176817202|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:56:33|15453177938621|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:56:33|15453177938694|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:57:18|15453178383546|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:57:18|15453178383607|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:57:36|15453178567231|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:57:36|15453178567339|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:59:06|15453179465564|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:59:06|15453179465911|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:59:10|15453179509733|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:59:11|15453179510113|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 22:59:21|15453179616328|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 22:59:21|15453179617883|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 23:01:54|15453181148508|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 23:01:54|15453181148563|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 23:01:57|15453181176530|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 23:01:57|15453181177509|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 23:02:27|15453181476872|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 23:02:27|15453181476874|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 23:03:02|15453181824333|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-20 23:03:02|15453181824557|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-20 23:03:06|15453181863304|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:06|15453181865909|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:06|15453181868613|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:06|15453181868926|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:07|15453181876533|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:07|15453181876805|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:07|15453181878450|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:12|15453181921417|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:13|15453181937028|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:14|15453181949500|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:22|15453182028248|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:24|15453182043413|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ss%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:28|15453182083561|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sss%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:29|15453182094390|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssss%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:30|15453182100553|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssa%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:30|15453182108465|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:31|15453182116401|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssasa%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:32|15453182122636|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssasad%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:33|15453182137021|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssasad%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:35|15453182157514|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssasadd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:36|15453182165276|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssasaddd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-20 23:03:37|15453182174214|39.91.107.87|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%ssssasaddd%' and `goods_class` = '10' and `status` = '10' limit 5

@@ -22,12 +22,10 @@ class WxxCxLoginController extends Controller
                 'code' => 'required|desc:微信code',
                 'iv' => 'required|desc:加密初始量',
                 'encryptedData' => 'required|desc:密文串',
-                'recommendId' => 'desc:推荐ID'
+                'recommendId' => ''//desc:推荐ID
             ]
         ];
     }
-
-    //SmallProgramLogin
 
     /**
      * @desc 小程序登陆

@@ -34,13 +34,13 @@ class ImgBannerRepo extends Repository
         $key = 'mall_home_banner';
         $minutes = 60;
 
-        return Cache::remember($key,$minutes,function() use ($key){
-            $ret = optional($this->model
-                ->select('id','title','desc','img_url','relation_type','relation_page')
-                ->where('status','10')
-                ->get())
-                ->toArray();
-            return $ret;
-        });
+//        return Cache::remember($key,$minutes,function() use ($key){
+        $ret = optional($this->model
+            ->select('id','title','desc','img_url','relation_type','relation_page')
+            ->where('status','10')
+            ->get())
+            ->toArray();
+        return $ret;
+//        });
     }
 }

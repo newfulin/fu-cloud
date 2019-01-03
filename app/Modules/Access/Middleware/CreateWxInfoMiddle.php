@@ -10,12 +10,10 @@ namespace App\Modules\Access\Middleware;
 
 
 use App\Common\Contracts\Middleware;
-use App\Modules\Access\Access;
 use App\Modules\Access\Repository\CommUserRepo;
 use App\Modules\Access\Repository\WxUserInfoRepo;
 use App\Modules\Access\Service\CommonService;
 use Closure;
-use Illuminate\Support\Facades\Log;
 
 class CreateWxInfoMiddle extends Middleware
 {
@@ -31,7 +29,7 @@ class CreateWxInfoMiddle extends Middleware
         $wxinfo = $request['wxinfo'];
         $wx_id = ID();
         $user_id = ID();
-
+        $wxinfo['unionid'] = "";
         $nickname = app()->make(CommonService::class)->with('str',$wxinfo['nickname'])->run('userTextEncode');
 
         $data = [

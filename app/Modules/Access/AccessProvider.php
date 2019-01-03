@@ -38,5 +38,6 @@ class AccessProvider extends ServiceProvider {
         app()->configure('const_headline');
         app()->configure('agent');
         app()->configure('wxxcx');
+        app()->configure('goods_classify');
     }
 }

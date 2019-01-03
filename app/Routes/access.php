@@ -18,7 +18,7 @@ $router->group([],function()use ($router){
     $router->post('/Mem.memCentre', 'MemCentreCon@memCentre');
 
     //公共部分 Service
-    //根据城市,银行 获取银联列表
+    //根据城市,银行 获取银联列表 1
     $router->post('/Common.getAreaBankList', ['uses' => 'CommonController@getAreaBankList','as' => 'Common.getAreaBankList']);
     //查询银行接口
     $router->post('/Common.getSupportBankList', ['uses' => 'CommonController@getSupportBankList','as' => 'Common.getSupportBankList']);
@@ -132,6 +132,13 @@ $router->group([],function()use ($router){
     $router->post('/Goods.getSearchName','GoodsCon@getSearchName');
     //获取产品二维码
     $router->post('/getCode','GoodsCon@getCode');
+
+    //获取商品分类
+    $router->post('/Goods.getClassify','GoodsCon@getClassify');
+
+    //获取首页分类
+    $router->post('/getHomeClassify','GoodsCon@getHomeClassify');
+
 
 //团队关系操作
     //团队关系直接切换
@@ -250,6 +257,16 @@ $router->group(['middleware' => ['auth']], function () use ($router) {
     //获取原六个车用户信息
     $router->post('/OldUser.getOldUserInfo',['uses' => 'InviteCodeController@getOldUserInfo','as' => 'OldUser.getOldUserInfo']);
 
+// 购物车
+    // 获取购物车
+    $router->post("/ShoppingCar.getMyGoodsCar",['uses' => 'ShoppingCarController@getMyGoodsCar']);
+    // 添加商品到购物车
+    $router->post("/ShoppingCar.addGoodsToCar",['uses' => 'ShoppingCarController@addGoodsToCar']);
+    // 更新购物车
+    $router->post("/ShoppingCar.updateGoodsCar",['uses' => 'ShoppingCarController@updateGoodsCar']);
+    // 删除商品到购物车
+    $router->post("/ShoppingCar.delGoodsCar",['uses' => 'ShoppingCarController@delGoodsCar']);
+
 
 //商品订单
     //商品订单生成
@@ -282,12 +299,19 @@ $router->group(['middleware' => ['auth']], function () use ($router) {
     $router->post('/Mall.getRecAddressList','UserRelatedController@getRecAddressList');
 
 
-//获取二维码
+    //获取二维码
     $router->post('/Common.getQrcode', ['uses' => 'CommonController@getQrcode','as' => 'Common.getQrcode']);
 
-//积分转赠
+    //积分转赠
     $router->post('/Points.givePoint', ['uses' => 'BuyPointCon@givePoint','as' => 'Points.givePoint']);
 
+
+// 开店
+    // 获取当前开店的步骤
+    $router->post('/OpenTheBusiness.Step',"OpenTheBusinessController@Step");
+    // 提交申请
+    // 交费
+    // 以上两步成功后返回当前店铺的名字  管理地址
 });
 
 // 权限验证、身份验证
@@ -304,9 +328,6 @@ $router->post('/getHomeTopList','TopController@getHomeTopList');
 
 //获取首页头条图片
 $router->post('/getTopImg','TopController@getTopImg');
-
-
-
 
 
 //-----------------------------------------------------------------------

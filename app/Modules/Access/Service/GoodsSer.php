@@ -2,9 +2,10 @@
 namespace App\Modules\Access\Service;
 
 use App\Common\Contracts\Service;
+use App\Modules\Access\Middleware\CheckStoreStatusMiddle;
+use App\Modules\Access\Repository\GoodsClassifyRepo;
 use App\Modules\Access\Repository\GoodsInfoRepo;
 use App\Modules\Transaction\Repository\CommUserInfoRepository;
-use Illuminate\Http\Request;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class GoodsSer extends Service
@@ -15,11 +16,18 @@ class GoodsSer extends Service
     }
     protected $user;
     protected $goods;
-    public function __construct(CommUserInfoRepository $user, GoodsInfoRepo $goods)
+    protected $goods_classify;
+    public function __construct(CommUserInfoRepository $user, GoodsInfoRepo $goods, GoodsClassifyRepo $goods_classify)
     {
         $this->user = $user;
         $this->goods = $goods;
+        $this->goods_classify = $goods_classify;
     }
+    public $middleware = [
+        CheckStoreStatusMiddle::class => [
+            'only' => 'getGoodsInfo'
+        ]
+    ];
     // 获取商品购买记录信息
     public function buyRecord($request)
     {
@@ -65,6 +73,9 @@ class GoodsSer extends Service
         }
         $ret['count'] = $count;
         $ret['headImg'] = $headImg;
+        if($request['error']){
+            $ret['error'] = $request['error'];
+        }
         return $ret;
     }
 
@@ -126,6 +137,19 @@ class GoodsSer extends Service
                 $ret[$k]['img1'] = R($v['img1'],false);
             }
         }
+        return $ret;
+    }
+
+    /**
+     * @dec 获取商品分类列表
+     */
+    public function getClassify($request){
+        $ret = $this->goods_classify->getClassify($request);
+        return $ret;
+    }
+
+    public function getHomeClassify($request){
+        $ret = $this->goods_classify->getHomeClassify($request);
         return $ret;
     }
 

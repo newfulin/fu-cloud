@@ -29,7 +29,7 @@ class Response {
             $ret = [
                 'ret' =>200,
                 'data'=>$response,
-                'code' =>'0000',
+                'code' =>0000,
                 'message' =>'请求成功'
             ];
         }

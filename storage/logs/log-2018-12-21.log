@@ -1,0 +1,950 @@
+2018-12-21 09:35:45|15453561456398|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:35:45|15453561456748|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:39:42|15453563828885|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:39:43|15453563830127|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:39:47|15453563874963|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:39:47|15453563875011|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:40:20|15453564207715|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:40:20|15453564208316|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:42:32|15453565521783|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:42:32|15453565522694|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:43:01|15453565810039|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:43:01|15453565811400|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:43:13|15453565930979|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:43:13|15453565932056|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:43:23|15453566039910|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:43:24|15453566040762|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:43:39|15453566197455|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:43:39|15453566198082|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:43:45|15453566250445|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:43:45|15453566251652|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:43:53|15453566333641|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:43:53|15453566335358|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:44:24|15453566645369|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:44:24|15453566645955|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:44:27|15453566672645|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:44:27|15453566673412|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:44:31|15453566715244|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:44:31|15453566716260|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:44:53|15453566933550|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:44:53|15453566933789|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:48:56|15453569368998|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:48:56|15453569369833|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:49:01|15453569418930|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:49:01|15453569419257|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:49:05|15453569450440|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:49:05|15453569450520|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:02|15453570024912|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:02|15453570024974|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:03|15453570037627|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:03|15453570037942|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:14|15453570140902|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:14|15453570141822|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:20|15453570208248|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:20|15453570208471|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:33|15453570334273|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:33|15453570334774|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:41|15453570416419|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:41|15453570416932|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:45|15453570457150|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:45|15453570457690|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:49|15453570490173|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:50:49|15453570491565|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:53|15453570538069|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:50:53|15453570538098|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:51:03|15453570633705|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:51:03|15453570634302|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:51:17|15453570771619|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:17|15453570772918|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:17|15453570775784|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:17|15453570776633|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:18|15453570780866|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:18|15453570781584|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:38|15453570988705|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:51:38|15453570989824|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:51:42|15453571022080|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:42|15453571024266|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:42|15453571026745|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:42|15453571026977|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:43|15453571034337|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:43|15453571034411|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:51:50|15453571101716|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:51:50|15453571101783|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:57:15|15453574350433|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:57:15|15453574350874|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:57:44|15453574649537|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:57:44|15453574649953|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:57:49|15453574690594|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:49|15453574690863|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:49|15453574693373|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:49|15453574693838|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:49|15453574698373|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:49|15453574698883|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:50|15453574700084|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:50|15453574707847|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:50|15453574708677|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:51|15453574710718|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:51|15453574711092|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:51|15453574715352|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:57:51|15453574716512|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:19|15453574993989|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:58:19|15453574994162|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:58:23|15453575032115|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:23|15453575034208|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:23|15453575035293|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:23|15453575037060|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:23|15453575039705|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:23|15453575039882|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 09:58:47|15453575273733|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:58:47|15453575274424|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:58:48|15453575285301|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:58:48|15453575286266|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:59:37|15453575773848|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:59:37|15453575774927|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 09:59:47|15453575879636|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 09:59:48|15453575880109|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:00:13|15453576139453|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:00:13|15453576139490|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:00:35|15453576358710|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:00:35|15453576358794|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:00:50|15453576507450|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:00:50|15453576507678|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:00:59|15453576596111|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:00:59|15453576596702|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:00:59|15453576599456|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:00|15453576600652|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:00|15453576603850|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:00|15453576604068|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:11|15453576718336|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:01:11|15453576718726|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:01:14|15453576747524|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:14|15453576748294|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:15|15453576750328|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:15|15453576751232|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:15|15453576754741|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:01:15|15453576754752|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:34|15453578141527|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:03:34|15453578141757|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:03:38|15453578183462|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:38|15453578186422|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:38|15453578187796|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:38|15453578189708|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:39|15453578192799|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:39|15453578193544|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:03:58|15453578381750|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:03:58|15453578381935|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:04:21|15453578612392|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:04:21|15453578613416|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:04:21|15453578614852|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:04:21|15453578615710|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:04:21|15453578618345|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:04:21|15453578618596|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:02|15453579020998|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:05:02|15453579021183|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:05:03|15453579035202|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:05:03|15453579035866|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:05:07|15453579078184|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:07|15453579079544|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:08|15453579082669|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:08|15453579083564|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:08|15453579085969|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:08|15453579086338|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:22|15453579224182|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:05:22|15453579224996|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:05:25|15453579252999|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:25|15453579253773|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:25|15453579256105|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:25|15453579257073|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:26|15453579260199|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:26|15453579260619|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:45|15453579452207|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:05:45|15453579452992|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:05:48|15453579481424|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:48|15453579483297|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:48|15453579484504|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:48|15453579486190|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:48|15453579489889|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:05:49|15453579490135|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:25|15453579851374|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:06:25|15453579852237|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:06:26|15453579863355|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:06:26|15453579863408|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:06:29|15453579895952|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:29|15453579898826|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:30|15453579900655|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:30|15453579900688|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:30|15453579903779|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:30|15453579904868|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:06:43|15453580033681|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:06:43|15453580034621|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:11:59|15453583196044|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:11:59|15453583196095|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:11:59|15453583198200|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:11:59|15453583199003|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:12:00|15453583202158|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:12:00|15453583202344|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:13:15|15453583956833|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:13:15|15453583957303|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:13:18|15453583988887|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:13:19|15453583990249|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:13:41|15453584214512|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:13:41|15453584218512|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:17:23|15453586434923|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:18:18|15453586985151|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:18:18|15453586985490|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:23:01|15453589816553|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:23:01|15453589816818|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:23:17|15453589979325|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:23:17|15453589979603|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:23:45|15453590254118|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:23:45|15453590254751|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:25:16|15453591169564|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:25:17|15453591170220|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:28:37|15453593178529|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:28:37|15453593178849|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:28:42|15453593228300|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:42|15453593228359|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:42|15453593229860|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:43|15453593232838|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:43|15453593232992|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:43|15453593233472|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:51|15453593315998|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:51|15453593318249|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:51|15453593319864|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:52|15453593320910|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:52|15453593323356|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:28:52|15453593323404|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:29:53|15453593935411|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:29:53|15453593935424|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:29:56|15453593962464|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:29:56|15453593963819|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:29:59|15453593998303|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:29:59|15453593999595|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:00|15453594002098|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:00|15453594002303|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:00|15453594005501|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:00|15453594005911|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:14|15453594146121|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:30:14|15453594146736|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:30:20|15453594206634|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:20|15453594207847|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:21|15453594210319|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:21|15453594210412|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:21|15453594213838|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:21|15453594214435|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:23|15453594235778|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:24|15453594241428|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:24|15453594243371|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:24|15453594245111|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:24|15453594248303|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:30:24|15453594249179|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:40:48|15453600489919|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:40:49|15453600493376|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:41:06|15453600668118|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:41:06|15453600669202|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:41:31|15453600919596|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:41:32|15453600920763|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:41:50|15453601108026|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:41:50|15453601108929|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:42:06|15453601266189|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:42:06|15453601266817|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:42:09|15453601291675|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:42:09|15453601293164|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:42:13|15453601339346|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:42:13|15453601339871|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:42:20|15453601405872|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:42:20|15453601406374|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:43:27|15453602073168|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:43:27|15453602073472|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:43:42|15453602229394|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:43:43|15453602230487|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:45:09|15453603098913|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:45:10|15453603100176|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:45:22|15453603223244|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:45:22|15453603223247|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:45:25|15453603254051|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:45:25|15453603255947|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:45:44|15453603445725|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:45:44|15453603446012|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:46:22|15453603829132|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:46:22|15453603829545|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:46:34|15453603948642|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:46:34|15453603949360|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:46:40|15453604002480|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:46:40|15453604004715|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:47:09|15453604296002|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:47:09|15453604296064|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:47:18|15453604384391|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:47:18|15453604384563|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:47:30|15453604503781|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:47:30|15453604503884|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:47:49|15453604695824|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:47:49|15453604696650|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:48:32|15453605123200|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:48:32|15453605123516|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:49:32|15453605727778|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:49:32|15453605728251|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:50:52|15453606521352|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:50:58|15453606589126|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:50:58|15453606589991|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:51:09|15453606694579|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:51:09|15453606694777|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:54:16|15453608562043|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:54:16|15453608563595|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:54:20|15453608605389|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:54:20|15453608606510|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:54:20|15453608609005|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:54:20|15453608609876|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:54:21|15453608616822|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:54:21|15453608618230|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:54:40|15453608804895|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:54:40|15453608805369|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:54:45|15453608853837|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:54:45|15453608854620|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:55:16|15453609160071|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:55:16|15453609161383|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:55:22|15453609223805|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:22|15453609225270|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:22|15453609226696|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:22|15453609228225|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:23|15453609232969|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:23|15453609233258|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609284223|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609284636|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sa%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609285116|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609286295|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609287598|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609287742|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:28|15453609290000|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609291225|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609292186|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609292597|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609297464|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609298157|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609299835|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:29|15453609299937|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:30|15453609300605|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:30|15453609301251|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:30|15453609302992|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:30|15453609307058|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:30|15453609307865|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:30|15453609309582|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609310091|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609310177|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609311784|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609313603|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasdasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609313767|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609314095|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasdasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609314928|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasda%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609315868|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sasd%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609316821|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sas%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:31|15453609317474|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sa%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:32|15453609321328|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:55:40|15453609405051|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:55:40|15453609405919|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:57:19|15453610394200|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:57:19|15453610395538|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:57:28|15453610483233|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:57:28|15453610484168|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:57:34|15453610542606|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:57:34|15453610543622|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 10:57:41|15453610612566|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:42|15453610622430|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:42|15453610622825|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:43|15453610631998|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:43|15453610632227|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:43|15453610634100|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:43|15453610636222|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:44|15453610649207|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:45|15453610651340|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:45|15453610652435|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:47|15453610678279|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:47|15453610679500|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:48|15453610682633|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shi%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:49|15453610690236|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:50|15453610704703|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shi%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:50|15453610706946|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shin%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:51|15453610717730|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shi%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:51|15453610718010|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:51|15453610718309|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:56|15453610768549|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:57|15453610772886|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:57|15453610774368|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:57|15453610777720|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:57|15453610778546|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:57:57|15453610778593|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 10:58:09|15453610894009|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 10:58:09|15453610894011|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:01:04|15453612640873|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:01:04|15453612641062|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:01:22|15453612827500|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:01:22|15453612828221|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:01:38|15453612980738|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:01:38|15453612980983|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:01:48|15453613089102|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:01:48|15453613089145|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:02:08|15453613284595|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:02:08|15453613286292|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:06:25|15453615854976|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:06:25|15453615856766|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:06:45|15453616053037|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:06:45|15453616055022|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:07:06|15453616265705|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:07:06|15453616268987|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:07:20|15453616407564|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:07:20|15453616408662|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:09:56|15453617965660|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:09:56|15453617967753|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:10:44|15453618446593|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:10:44|15453618447117|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:11:03|15453618630485|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:11:03|15453618630916|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:15:40|15453621407098|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:15:40|15453621408486|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:15:48|15453621482304|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:15:48|15453621482840|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:17:04|15453622249465|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:17:04|15453622249672|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:17:57|15453622777344|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:17:57|15453622778313|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:18:38|15453623183258|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:18:38|15453623183945|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:23:18|15453625986310|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:23:18|15453625986767|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:23:54|15453626346108|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:23:54|15453626346630|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:24:23|15453626636264|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:24:23|15453626636487|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:24:50|15453626905773|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:24:50|15453626906485|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:24:56|15453626966480|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:24:56|15453626966482|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:25:01|15453627019391|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:25:02|15453627020039|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:25:29|15453627295982|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:25:29|15453627296174|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:25:54|15453627543725|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:25:54|15453627543882|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 11:26:10|15453627709005|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 11:26:10|15453627709036|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:12:25|15453727451049|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:12:25|15453727451625|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:12:35|15453727557873|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:12:35|15453727558053|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:12:52|15453727729358|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:12:52|15453727729934|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:13:01|15453727818284|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:13:01|15453727818633|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:13:40|15453728201177|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:13:40|15453728201911|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:14:01|15453728413607|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:14:01|15453728414221|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:14:23|15453728634366|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:14:23|15453728634658|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:15:24|15453729243565|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:15:24|15453729243995|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:15:38|15453729380825|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:15:38|15453729381085|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:21:11|15453732713405|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:21:11|15453732713613|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:21:14|15453732746814|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:21:14|15453732746856|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:08|15453733888297|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:08|15453733888343|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:12|15453733929300|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:13|15453733930311|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:23|15453734030603|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:23|15453734030654|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:30|15453734103566|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:30|15453734103974|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:41|15453734218110|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:41|15453734218946|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:46|15453734267240|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:23:46|15453734268295|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:58|15453734389793|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:23:59|15453734390515|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:24:13|15453734538090|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:24:13|15453734538967|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:26:46|15453736063660|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:26:46|15453736063661|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:26:58|15453736181151|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:26:58|15453736181927|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:27:05|15453736255814|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:27:05|15453736256235|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:27:33|15453736530972|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:27:33|15453736531037|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:28:14|15453736947779|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:28:14|15453736948589|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:28:29|15453737092745|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:28:29|15453737092811|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:28:47|15453737277421|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:28:47|15453737278888|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:28:55|15453737358603|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:28:56|15453737360584|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:29:12|15453737529020|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:29:12|15453737529485|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:29:18|15453737586451|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:29:18|15453737588356|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:29:47|15453737879793|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:29:48|15453737880014|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:30:16|15453738167403|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:30:16|15453738168539|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:30:29|15453738292745|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:30:29|15453738294402|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:30:52|15453738528157|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:30:52|15453738528854|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:31:08|15453738689344|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:31:09|15453738691462|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:31:16|15453738761066|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:31:16|15453738762938|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:31:44|15453739041162|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:31:44|15453739041475|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:31:48|15453739087586|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:48|15453739088632|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:49|15453739090872|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:49|15453739091342|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:50|15453739103158|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:50|15453739104578|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:50|15453739105901|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:53|15453739130083|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:53|15453739132116|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:53|15453739133795|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:53|15453739134641|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:54|15453739142495|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:54|15453739146002|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:54|15453739146223|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:55|15453739158979|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:56|15453739162293|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:57|15453739174218|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:57|15453739175320|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:58|15453739180707|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:58|15453739182518|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:58|15453739183948|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:58|15453739188918|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:59|15453739190624|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:59|15453739193020|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:31:59|15453739193529|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:00|15453739206379|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:00|15453739206419|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:13|15453739330320|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:32:16|15453739361791|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:32:31|15453739510566|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:32:31|15453739511450|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:32:42|15453739620046|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:42|15453739621306|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:42|15453739623895|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:42|15453739624635|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:45|15453739658832|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:46|15453739660548|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:46|15453739660928|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:47|15453739675935|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:47|15453739676912|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:47|15453739678391|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:48|15453739680682|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:48|15453739685507|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:32:48|15453739685568|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:33:13|15453739938783|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:33:14|15453739940305|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:33:26|15453740061400|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:33:36|15453740166120|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:33:46|15453740264603|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水润%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:33:50|15453740309747|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:33:55|15453740350639|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%S%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:33:56|15453740362874|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%Su%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:34:02|15453740422848|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%S%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:34:26|15453740666490|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%S%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:34:44|15453740846125|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:35:48|15453741483253|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:35:48|15453741483460|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:37:06|15453742264831|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:37:07|15453742271789|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:37:18|15453742386701|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:37:18|15453742387567|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:37:30|15453742502070|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:37:48|15453742689224|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:37:48|15453742689530|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:39:06|15453743466107|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:39:06|15453743469061|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:40:02|15453744025343|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:40:02|15453744026183|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:40:15|15453744154643|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:40:15|15453744155339|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:41:22|15453744826707|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:41:23|15453744831843|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:41:32|15453744928068|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:41:32|15453744929293|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:42:53|15453745731332|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:42:53|15453745732741|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:42:59|15453745793460|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:42:59|15453745794110|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:43:04|15453745843740|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:43:06|15453745863068|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:43:12|15453745929924|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%2%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:43:15|15453745953261|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%3%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:43:31|15453746113403|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:43:31|15453746113408|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:44:46|15453746860360|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 14:44:46|15453746861130|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 14:45:09|15453747092727|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:45:12|15453747129488|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:45:27|15453747272429|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:33|15453748539765|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:36|15453748566838|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:38|15453748587110|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%12%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:40|15453748608823|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:40|15453748609682|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%18%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:42|15453748628259|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:46|15453748661874|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%18%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:46|15453748663437|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%180%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:46|15453748665612|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1800%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:46|15453748667588|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%18000%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:47|15453748670327|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%180002%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:47|15453748672392|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1800020%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:48|15453748682983|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%180002%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:48|15453748686608|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%18000%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:48|15453748687233|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%180%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:48|15453748687639|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1800%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:48|15453748689575|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%18%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:47:49|15453748691180|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:51:16|15453750768724|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%12%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:51:20|15453750806437|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:04|15453751240711|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:05|15453751253588|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:05|15453751254840|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:05|15453751255849|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:05|15453751256944|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:05|15453751258696|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:05|15453751259882|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751260901|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751261827|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751261939|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751263550|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751264308|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751266020|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751266845|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751267734|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751268043|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:06|15453751269768|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:07|15453751270133|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:07|15453751271027|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:14|15453751340882|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:14|15453751345261|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:14|15453751345418|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:14|15453751346430|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:14|15453751349317|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:14|15453751349466|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751350865|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751353788|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751353869|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751354132|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751354830|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751357835|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751358001|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751358283|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11313%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:15|15453751358377|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1131%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:16|15453751361106|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%11%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:16|15453751361138|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%113%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:16|15453751361552|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 14:52:16|15453751362172|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 15:02:23|15453757431212|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:02:23|15453757431359|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:02:25|15453757458336|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:02:25|15453757458972|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:02:33|15453757537563|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:02:33|15453757537956|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:02:45|15453757652339|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:02:45|15453757652690|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:02:47|15453757676818|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:02:47|15453757677068|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:02:59|15453757798524|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:02:59|15453757799313|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:03:33|15453758132804|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:03:33|15453758133761|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:04:05|15453758459372|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:04:05|15453758459652|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:04:25|15453758653174|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:04:25|15453758653441|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:04:40|15453758800795|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:04:42|15453758824622|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:04:59|15453758993503|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:04:59|15453758993510|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:05:14|15453759143225|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:05:17|15453759172060|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:05:39|15453759395466|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:05:39|15453759397814|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:06:29|15453759892303|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:06:33|15453759939146|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:07:01|15453760217801|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:07:01|15453760217859|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:07:23|15453760434574|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:07:23|15453760435451|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:07:52|15453760725313|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:07:52|15453760725843|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:09:13|15453761539157|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:09:13|15453761539822|221.218.102.114|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 15:11:13|15453762734070|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:11:34|15453762945694|221.218.102.114|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 15:20:28|15453768280711|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 15:21:07|15453768676955|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%1%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:20|15453818003253|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:20|15453818005218|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:20|15453818008168|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:20|15453818008594|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:22|15453818020942|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:22|15453818022052|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:22|15453818023662|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:23|15453818030889|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:23|15453818032410|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'j%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:23|15453818032843|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'ji%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:23|15453818034180|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'jio%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:24|15453818045042|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'jios'ji%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:24|15453818046240|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'jios'j%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:24|15453818049451|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'jios%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:25|15453818053215|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'jio%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:25|15453818054108|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'ji%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:25|15453818055245|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'j%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:25|15453818058664|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:26|15453818065288|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'h%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:26|15453818068355|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'hui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:26|15453818068402|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'hu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:27|15453818075689|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'hu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:27|15453818076683|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'h%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:27|15453818077941|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s'%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:28|15453818083752|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:29|15453818091067|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:29|15453818093378|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:29|15453818094530|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:29|15453818095250|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:30|15453818103556|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:43:30|15453818103940|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:03|15453818439489|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:08|15453818482547|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:08|15453818483475|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:08|15453818486426|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:09|15453818496854|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:11|15453818510949|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:11|15453818512735|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:11|15453818514441|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:16|15453818563706|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:18|15453818582259|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:18|15453818585469|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:19|15453818591553|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:20|15453818606834|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:20|15453818609991|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:21|15453818610054|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:22|15453818625786|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:22|15453818627402|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:23|15453818630972|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:23|15453818632344|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:23|15453818639700|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:24|15453818640509|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:24|15453818642583|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:30|15453818702232|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:30|15453818704164|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:30|15453818707544|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:30|15453818708129|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:37|15453818772289|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shu%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:37|15453818772907|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%sh%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:37|15453818776038|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%s%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:45|15453818850453|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%a%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:50|15453818907548|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:44:54|15453818946183|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:45:17|15453819171642|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:45:29|15453819292967|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%shui%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:45:54|15453819545960|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:46:03|15453819630878|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%手机%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:46:05|15453819656345|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%手%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:46:25|15453819856797|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%手机%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:46:32|15453819923898|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%手%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:47:23|15453820436812|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水里%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:47:26|15453820462317|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 16:49:27|15453821673223|221.218.102.114|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-21 17:16:06|15453837667989|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 17:16:06|15453837667989|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 17:49:29|15453857690483|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 17:49:29|15453857690483|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:02:51|15453865711972|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:02:51|15453865711972|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:03:58|15453866386975|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:03:58|15453866386975|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:04:17|15453866572251|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:04:17|15453866572251|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:05:18|15453867187267|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:05:18|15453867187267|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:05:46|15453867460732|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:05:46|15453867460732|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:10:57|15453870570239|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:10:57|15453870570239|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:11:09|15453870699519|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:11:09|15453870699519|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:11:12|15453870720273|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:11:12|15453870720273|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:11:16|15453870769974|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:11:16|15453870769974|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:11:24|15453870840576|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:11:24|15453870840576|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:11:33|15453870930087|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:11:33|15453870930087|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:11:55|15453871159054|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:11:55|15453871159054|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:12:29|15453871499256|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:12:29|15453871499256|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:14:39|15453872799568|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:14:39|15453872799568|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:14:41|15453872812244|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:14:41|15453872812244|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:14:41|15453872819275|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:14:41|15453872819275|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:15:32|15453873321668|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:15:32|15453873321668|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:15:45|15453873453412|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:15:45|15453873453412|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:04|15453873648445|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:04|15453873648445|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:06|15453873666063|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:06|15453873666063|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:17|15453873775236|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:17|15453873775236|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:26|15453873866748|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:26|15453873866748|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:34|15453873942255|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:34|15453873942255|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:41|15453874012265|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:41|15453874012265|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:16:59|15453874198076|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:16:59|15453874198076|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:17:21|15453874416691|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:17:21|15453874416691|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:17:30|15453874502940|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:17:30|15453874502940|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:18:42|15453875221476|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:18:42|15453875221476|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:18:45|15453875253444|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:18:45|15453875253444|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:18:49|15453875292147|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:18:49|15453875292147|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:19:08|15453875482645|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:19:08|15453875482645|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:19:13|15453875532669|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:19:13|15453875532669|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:19:16|15453875568224|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:19:16|15453875568224|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:19:30|15453875707606|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:19:30|15453875707606|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:22:06|15453877260978|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:22:06|15453877260978|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:22:21|15453877410030|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:22:21|15453877410030|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:22:22|15453877420040|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:22:22|15453877420040|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:28:56|15453881360672|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:28:56|15453881360672|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:29:11|15453881510833|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:29:11|15453881510833|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:29:37|15453881779535|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:29:37|15453881779535|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:29:49|15453881899456|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:29:49|15453881899456|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:30:06|15453882069601|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:30:06|15453882069601|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:30:38|15453882389498|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:30:38|15453882389498|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:30:47|15453882472357|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:30:47|15453882472357|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:31:04|15453882646635|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:31:04|15453882646635|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:31:11|15453882711272|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:31:11|15453882711272|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:31:17|15453882775851|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:31:17|15453882775851|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:31:18|15453882786679|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:31:18|15453882786679|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:32:13|15453883333109|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:32:13|15453883333109|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:32:21|15453883413363|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:32:21|15453883413363|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:32:41|15453883610077|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:32:41|15453883610077|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:34:50|15453884900378|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:34:50|15453884900378|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:34:57|15453884975154|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:34:57|15453884975154|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:35:16|15453885160871|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:35:16|15453885160871|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:35:18|15453885182593|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:35:18|15453885182593|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:35:20|15453885209229|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:35:20|15453885209229|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:35:38|15453885387789|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:35:38|15453885387789|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:37:16|15453886363484|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:37:16|15453886363484|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:38:51|15453887311563|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:38:51|15453887311563|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:39:47|15453887870122|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:39:47|15453887870122|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:40:24|15453888246190|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:40:24|15453888246190|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:41:08|15453888683281|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:41:08|15453888683281|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:42:30|15453889502917|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:42:30|15453889502917|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:43:47|15453890274437|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:43:47|15453890274437|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:44:21|15453890614208|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:44:21|15453890614208|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:45:01|15453891014313|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:45:01|15453891014313|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:45:13|15453891133716|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:45:13|15453891133716|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:46:10|15453891700028|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:46:10|15453891700028|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:46:17|15453891775285|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:46:17|15453891775285|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:46:31|15453891914253|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:46:31|15453891914253|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:46:40|15453892004820|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:46:40|15453892004820|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:46:43|15453892036412|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:46:43|15453892036412|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:47:10|15453892300674|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:47:10|15453892300674|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:47:18|15453892381030|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:47:18|15453892381030|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:47:25|15453892455535|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:47:25|15453892455535|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:48:04|15453892846294|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:48:04|15453892846294|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:48:10|15453892908801|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:48:10|15453892908801|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:48:42|15453893221583|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:48:42|15453893221583|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:49:14|15453893544403|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:49:14|15453893544403|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:49:38|15453893789720|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:49:38|15453893789720|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:50:36|15453894366063|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:50:36|15453894366063|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 18:51:15|15453894758389|221.218.102.114|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-21 18:51:15|15453894758389|221.218.102.114|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-21 19:23:46|15453914263945|192.168.1.182|ShoppingCar.addGoodsToCar|ERROR|登陆过期,请重新登陆
+2018-12-21 19:23:49|15453914294904|192.168.1.182|ShoppingCar.addGoodsToCar|ERROR|登陆过期,请重新登陆
+2018-12-21 19:28:58|15453917386177|58.56.21.246|User.getUserInfo|ERROR|登陆过期,请重新登陆
+2018-12-21 19:31:04|15453918641378|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 19:31:04|15453918642760|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 19:31:41|15453919013204|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 19:31:41|15453919013997|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 19:33:20|15453920000585|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 19:33:20|15453920000831|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:09:31|15453941718443|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 20:09:31|15453941718597|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:10:36|15453942365069|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:10:36|15453942365461|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 20:10:56|15453942569672|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:10:56|15453942569783|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 20:11:09|15453942694289|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:11:09|15453942695898|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 20:11:27|15453942874866|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:11:27|15453942875833|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-21 20:12:58|15453943787966|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 99
+2018-12-21 20:12:58|15453943788388|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc

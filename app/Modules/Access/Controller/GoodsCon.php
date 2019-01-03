@@ -50,9 +50,10 @@ class GoodsCon extends Controller
             'getSearchName'=> [
                 'key_word' => 'required',
                 'goodsClass' => 'desc:10普通商品20积分商品30团购商品40秒杀商品'
-        ]  , 'getCode' => [
-            'product_id' => 'required|desc:产品id'
-        ],
+            ],
+            'getCode' => [
+                'product_id' => 'required|desc:产品id'
+            ],
             'buyRecord' => [
                 'id' => 'required|desc:商品id',
                 'page' => 'required',
@@ -88,6 +89,28 @@ class GoodsCon extends Controller
             ->with('page',$request->input('page'))
             ->with('pageSize',$request->input('pageSize'))
             ->run('getLikeGoodsList');
+    }
+    /**
+     * @desc 获取商品分类
+     */
+    public function getClassify(Request $request){
+        $goodsClassID = $request->input("pid");
+        if (!$goodsClassID){
+            $goodsClassID = 0;
+        }
+        return Access::service("GoodsSer")
+            ->with("pid",$goodsClassID)
+            ->run('getClassify');
+    }
+
+    public function getHomeClassify(Request $request){
+        $num = $request->input("num");
+        if (!$num){
+            $num = 10;
+        }
+        return Access::service("GoodsSer")
+            ->with("num",$num)
+            ->run('getHomeClassify');
     }
     /**
      * @desc 获取商品列表

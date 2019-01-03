@@ -84,7 +84,7 @@ if(! function_exists('R')) {
         if($flag){
             $url = "http://" . $_SERVER['HTTP_HOST'] . "/Data" . "/";
         }else{
-            $url = "http://mallpms.melenet.com/image/";
+            $url = "http://c.suuweb.cn/image/";
         }
         
         if (is_array($path)) {
@@ -172,7 +172,7 @@ if (! function_exists('RUeditor')){
         if(app()->runningInConsole()){
             return null;
         }
-        $url = "http://192.168.1.2:8096";
+        $url = "http://c.suuweb.cn";
 
         return $url . $path;
     }

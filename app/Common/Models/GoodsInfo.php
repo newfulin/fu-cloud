@@ -22,4 +22,8 @@ class GoodsInfo extends Model
         return R($value,false);
 
     }
+
+    public function businessInfo(){
+        return $this->hasOne(Store::class,'id','store_id')->select('id','name');
+    }
 }

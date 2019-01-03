@@ -39,18 +39,16 @@ class WxxCxLoginMiddle extends Middleware
         Log::info('根据 code 获取用户信息 | '.json_encode($wxconf));
         //获取解密后的用户信息
         $wxinfo = $this->wxxcx->getUserInfo($request['encryptedData'], $request['iv']);
-
         if(isset($wxinfo['code'])){
             Log::info('错误代码 ' .$wxinfo['code'] . ' | 错误信息 |' .$wxinfo['message']);
             Err('微信授权失败');
         }
 
         $wxinfo = array_change_key_case(get_object_vars(json_decode($wxinfo)));
-
+        
         Log::info('用户微信信息 | '.json_encode($wxinfo));
 
-        $ret = $this->user->getUserInfoByUnionid($wxinfo);
-
+        $ret = $this->user->getUserInfoByOpenId($wxinfo);
         if(!$ret){
             //使用获取微信用户信息,并注册
             Log::info('微信用户注册 | '.$wxinfo['openid']);
@@ -61,6 +59,7 @@ class WxxCxLoginMiddle extends Middleware
                 ->with('recommendId',$request['recommendId'])
                 ->run();
             Log::info('微信用户注册成功 token返回| '.$wxinfo['openid']);
+
             $token = Token()
                 ->setId($ret['user_id'])
                 ->setName('')
@@ -77,7 +76,6 @@ class WxxCxLoginMiddle extends Middleware
             ->setRole($ret['user_tariff_code'])
             ->getToken();
 //        Log::info('$token===='.json_encode($token));
-
         return $next($token);
 
     }

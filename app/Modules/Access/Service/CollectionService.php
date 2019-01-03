@@ -46,7 +46,7 @@ class CollectionService extends Service
         if(!$ret){
             Err('收藏失败');
         }
-        return ;
+        return "收藏成功";
     }
 
     //我的收藏

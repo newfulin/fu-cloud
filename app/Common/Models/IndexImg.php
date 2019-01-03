@@ -13,7 +13,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class IndexImg extends Model
 {
-    protected $table = "index_img";
+//    protected $table = "index_img";
+    protected $table = "img_banner";
     protected $primaryKey = 'id';
     protected $keyType = 'string';
     public $incrementing = false;

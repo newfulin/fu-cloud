@@ -1,0 +1,2 @@
+2019-01-03 11:06:16|15464847762286|58.56.21.246|Common.getProvinceList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '0' order by `sort` asc
+2019-01-03 11:21:18|15464856784214|58.56.21.246|Common.getProvinceList|INFO|select `id`, `name`, `parentid` from `sys_city` where `parentid` = '0' order by `sort` asc

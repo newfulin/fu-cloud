@@ -11,7 +11,6 @@ namespace App\Modules\Access\Repository;
 
 use App\Common\Contracts\Repository;
 use App\Common\Models\SysCity;
-use Illuminate\Database\Eloquent\Model;
 
 class SysCityRepo extends Repository
 {

@@ -20,8 +20,8 @@ class Wxxcx
      */
     function __construct()
     {
-        $this->appId = config('wxxcx.appid', 'wx88002a0fd4fee5ee');
-        $this->secret = config('wxxcx.secret', 'efa93cc16b491f31ab77d60fc4f153b3');
+        $this->appId = config('wxxcx.appid');
+        $this->secret = config('wxxcx.secret');
         $this->code2session_url = config('wxxcx.code2session_url', '');
     }
 

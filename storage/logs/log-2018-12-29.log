@@ -1,0 +1,757 @@
+2018-12-29 09:57:17|15460486373340|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 09:57:17|15460486373458|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 09:57:17|15460486373999|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 09:57:17|15460486373999|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:27:17|15460504376657|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 10:27:17|15460504376672|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 10:27:17|15460504377651|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 10:27:17|15460504377651|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:27:37|15460504572806|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 10:27:37|15460504572985|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 10:27:37|15460504573475|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 10:27:37|15460504573475|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:35:46|15460509466526|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 10:35:46|15460509467368|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 10:35:46|15460509467911|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 10:35:46|15460509467911|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:36:13|15460509730737|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 10:36:13|15460509730971|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 10:36:13|15460509731782|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 10:36:13|15460509731782|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:37:03|15460510237718|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 10:37:03|15460510238471|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 10:37:03|15460510238471|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:37:03|15460510238502|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 10:37:46|15460510667708|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 10:37:46|15460510668015|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 10:37:46|15460510669138|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 10:37:46|15460510669138|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 10:57:55|15460522750824|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 10:57:55|15460522754415|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 10:57:59|15460522795998|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 10:58:00|15460522800199|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 10:59:55|15460523950152|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 10:59:58|15460523983693|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 10:59:59|15460523992914|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 10:59:59|15460523999956|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 11:04:13|15460526533498|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 11:11:37|15460530977005|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 11:33:38|15460544188614|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 11:33:58|15460544381518|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 11:33:58|15460544384640|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 11:33:58|15460544386831|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 11:33:58|15460544386831|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 11:34:10|15460544507208|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 11:34:11|15460544510901|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 11:36:15|15460545751344|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 11:36:15|15460545751344|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 11:36:15|15460545751738|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 11:36:15|15460545751805|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 11:36:19|15460545798925|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 11:36:20|15460545802584|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 11:39:17|15460547574841|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 11:39:18|15460547583214|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 11:39:18|15460547588194|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 11:39:19|15460547597655|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 11:39:20|15460547609521|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 11:39:21|15460547617881|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 11:39:22|15460547626119|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 11:39:25|15460547651355|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 11:39:25|15460547658284|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 11:39:26|15460547666267|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 11:39:27|15460547674500|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 11:39:28|15460547682682|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 11:39:29|15460547691061|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 11:39:36|15460547762773|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 11:39:36|15460547763036|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 11:39:36|15460547763529|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 11:39:36|15460547763529|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 11:39:42|15460547829210|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 11:39:43|15460547832947|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 13:15:05|15460605058931|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 13:15:05|15460605059136|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 13:15:05|15460605059476|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 13:15:05|15460605059476|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:17:42|15460678627543|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:17:43|15460678632392|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:17:47|15460678672325|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:17:48|15460678682419|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:17:49|15460678693198|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:18:25|15460679054712|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:18:25|15460679058183|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:18:26|15460679064211|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:18:27|15460679070143|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:18:29|15460679097883|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 15:18:29|15460679097883|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 15:18:41|15460679210979|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:18:41|15460679215435|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:18:42|15460679228877|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:18:44|15460679249060|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:18:45|15460679258100|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:18:46|15460679264283|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:18:47|15460679273378|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:19:14|15460679544074|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:19:14|15460679545523|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:19:14|15460679545733|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:19:14|15460679545733|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:19:16|15460679566723|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:19:17|15460679571340|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:19:42|15460679824492|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:19:42|15460679825270|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:19:42|15460679826703|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:19:42|15460679826703|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:19:50|15460679902548|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:19:50|15460679906372|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:20:37|15460680374021|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:20:37|15460680374023|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:20:37|15460680375578|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:20:37|15460680375578|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:20:39|15460680399204|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:20:40|15460680403092|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:21:09|15460680696019|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:21:09|15460680696182|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:21:09|15460680696270|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:21:09|15460680696270|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:21:12|15460680725086|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:21:12|15460680729104|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:21:20|15460680809056|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:21:20|15460680809253|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:21:21|15460680811575|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:21:21|15460680811575|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:21:22|15460680827765|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:21:23|15460680831389|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:21:49|15460681095498|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:21:49|15460681095498|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:21:49|15460681095936|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:21:49|15460681095947|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:21:55|15460681152419|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:21:55|15460681156171|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:22:27|15460681471146|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:22:27|15460681471850|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:22:27|15460681472509|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:22:27|15460681472509|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:22:30|15460681508563|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:22:31|15460681512282|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:22:33|15460681533451|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:22:34|15460681542160|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:22:35|15460681550233|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:22:37|15460681573811|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:22:39|15460681595540|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:23:28|15460682084428|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:23:28|15460682085341|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:23:28|15460682085939|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:23:28|15460682085939|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:23:32|15460682124893|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:23:32|15460682125296|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:23:32|15460682125296|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:23:32|15460682125507|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:23:35|15460682150187|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:23:35|15460682154490|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:34:26|15460688664545|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:34:26|15460688664637|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:34:26|15460688665979|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:34:26|15460688665979|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:34:28|15460688685721|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:34:28|15460688689751|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:34:38|15460688781314|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:34:38|15460688787909|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:34:39|15460688795208|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:35:21|15460689217943|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:35:21|15460689217946|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:35:23|15460689239533|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:35:23|15460689239533|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:35:53|15460689530143|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:35:53|15460689530279|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:35:53|15460689530962|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:35:53|15460689530962|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:35:56|15460689563721|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:35:57|15460689573154|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:36:01|15460689616641|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:36:04|15460689641849|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:36:06|15460689660828|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:36:11|15460689718569|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:36:15|15460689751310|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:36:28|15460689889718|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:36:29|15460689894382|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:37:16|15460690367722|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:37:16|15460690368481|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:37:16|15460690368764|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:37:16|15460690368764|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:37:25|15460690450111|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:37:25|15460690454413|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:37:26|15460690464007|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:37:27|15460690470179|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:37:27|15460690475816|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:37:29|15460690494626|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:37:31|15460690515282|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:37:37|15460690578605|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:37:37|15460690578853|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:37:37|15460690579373|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:37:37|15460690579373|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:37:54|15460690749516|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:37:54|15460690749696|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:37:55|15460690750119|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:37:55|15460690750119|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:37:57|15460690771969|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:37:57|15460690775658|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:37:58|15460690783424|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:37:58|15460690789962|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:37:59|15460690796979|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:38:00|15460690806631|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:38:13|15460690931731|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:38:13|15460690931733|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:38:13|15460690932232|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:38:13|15460690932232|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:38:15|15460690952779|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:38:15|15460690957450|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:38:16|15460690966288|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:38:17|15460690974599|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:38:18|15460690982302|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:38:26|15460691064429|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:38:26|15460691064603|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:38:26|15460691064603|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:38:26|15460691065054|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:38:28|15460691088879|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:38:29|15460691092914|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:38:30|15460691103980|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:38:31|15460691110302|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:38:31|15460691118743|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:38:32|15460691129562|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:38:33|15460691134573|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:38:33|15460691139852|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:39:17|15460691577166|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:39:17|15460691578819|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:39:17|15460691578819|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:39:17|15460691579624|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:39:36|15460691762703|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:39:36|15460691763935|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:39:36|15460691764604|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:39:36|15460691764604|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:39:40|15460691804332|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:39:40|15460691805403|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:39:40|15460691805754|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:39:40|15460691805754|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:39:57|15460691976472|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:39:57|15460691977472|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:39:57|15460691977472|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:39:57|15460691977655|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:40:13|15460692131332|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:40:13|15460692131476|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:40:13|15460692132034|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:40:13|15460692132034|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:40:16|15460692162347|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:40:16|15460692162349|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:40:16|15460692162507|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:40:16|15460692162507|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:40:20|15460692202789|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:40:20|15460692206452|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:40:21|15460692219458|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:40:22|15460692229750|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:40:23|15460692237678|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:40:25|15460692250283|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:40:25|15460692259126|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:40:26|15460692267346|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:40:29|15460692291324|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:40:29|15460692298454|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:40:49|15460692496414|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:40:49|15460692496485|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:40:49|15460692497001|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:40:50|15460692500370|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:40:50|15460692500370|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:40:50|15460692504673|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:40:51|15460692517440|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:40:53|15460692533614|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:40:55|15460692550257|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:42:00|15460693203413|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:42:02|15460693229265|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:42:27|15460693476665|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:42:28|15460693481503|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:42:29|15460693499119|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:42:32|15460693521412|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:42:32|15460693525463|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:43:04|15460693849468|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:43:05|15460693852133|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:43:05|15460693852285|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:43:05|15460693852285|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:43:11|15460693913844|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:43:11|15460693914254|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:43:11|15460693914328|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:43:11|15460693914328|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:43:13|15460693935586|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:43:13|15460693939186|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:43:38|15460694180174|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:43:38|15460694180419|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:43:38|15460694180681|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:43:38|15460694180681|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:43:40|15460694204828|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:43:40|15460694205477|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:43:40|15460694207097|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:43:40|15460694208622|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:44:09|15460694496275|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:44:10|15460694504752|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:44:13|15460694530130|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:44:14|15460694543279|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:44:15|15460694552518|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:44:16|15460694567342|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:44:26|15460694662808|112.224.22.213|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-29 15:44:26|15460694667266|112.224.22.213|Goods.getSearchName|INFO|select `id`, `name`, `img` from `goods_info` where `name` like '%水%' and `goods_class` = '10' and `status` = '10' limit 5
+2018-12-29 15:44:38|15460694781230|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:44:38|15460694782161|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:44:38|15460694787433|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:44:39|15460694796293|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:44:39|15460694798740|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:44:42|15460694820059|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:44:42|15460694822230|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:45:09|15460695097642|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:45:09|15460695098481|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:45:09|15460695099061|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:45:09|15460695099061|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:45:12|15460695128066|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:45:13|15460695131503|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:45:13|15460695139839|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:45:29|15460695292786|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:45:29|15460695292786|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:45:29|15460695293494|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:45:29|15460695293952|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:45:32|15460695320216|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:45:32|15460695324651|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:45:33|15460695332260|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:45:34|15460695340520|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:45:34|15460695346251|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:45:47|15460695471223|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:45:47|15460695471990|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:45:47|15460695472896|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:45:47|15460695472896|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:45:49|15460695497615|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:45:50|15460695501143|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:45:51|15460695510274|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:45:51|15460695518815|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:46:09|15460695693752|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:46:09|15460695693858|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:46:09|15460695694317|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:46:09|15460695694317|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:46:26|15460695869519|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:46:27|15460695870973|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:46:27|15460695871429|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:46:27|15460695871429|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:46:27|15460695872506|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:46:28|15460695883436|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:46:29|15460695896888|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:46:30|15460695903506|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:46:31|15460695917413|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:46:33|15460695938533|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:46:36|15460695960500|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:46:38|15460695982706|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:46:41|15460696011648|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:46:41|15460696014114|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:46:47|15460696076945|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:46:59|15460696190460|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:47:01|15460696212591|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:47:05|15460696254122|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:47:13|15460696336537|112.224.22.213|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 15:47:13|15460696336537|112.224.22.213|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 15:47:34|15460696547989|112.224.22.213|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 15:47:34|15460696547989|112.224.22.213|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 15:48:04|15460696842972|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:48:04|15460696843599|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:48:04|15460696844861|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:48:04|15460696844861|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:48:16|15460696964878|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:48:16|15460696966853|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:48:16|15460696968407|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:48:16|15460696968407|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:48:38|15460697186424|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:48:38|15460697187414|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:48:38|15460697187750|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:48:38|15460697187750|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:48:51|15460697315076|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:48:51|15460697315615|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:48:51|15460697317364|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:48:51|15460697317364|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:49:29|15460697697520|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:49:29|15460697697520|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:49:29|15460697697710|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:49:29|15460697697730|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:49:42|15460697824754|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:49:42|15460697824875|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:49:42|15460697826412|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:49:42|15460697826412|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:50:18|15460698187774|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:50:18|15460698188986|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:50:18|15460698189769|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:50:18|15460698189769|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:50:25|15460698254488|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:50:25|15460698254553|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:50:25|15460698256173|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:50:25|15460698256173|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:50:31|15460698315687|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:50:31|15460698315687|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:50:31|15460698316263|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:50:31|15460698316325|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:50:49|15460698499449|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:50:50|15460698503385|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:50:50|15460698504904|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:50:50|15460698504904|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:50:56|15460698567479|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:50:56|15460698568095|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:50:56|15460698569496|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:50:56|15460698569496|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:51:17|15460698772444|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:51:17|15460698774103|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:51:17|15460698775593|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:51:17|15460698775593|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:51:33|15460698934874|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:51:33|15460698935545|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:51:33|15460698936820|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:51:33|15460698936820|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:51:51|15460699117064|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:51:51|15460699117064|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:51:51|15460699117199|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:51:51|15460699118113|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:51:57|15460699173288|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:51:57|15460699177851|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:52:02|15460699223647|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 15:52:03|15460699234334|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 15:52:04|15460699241282|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 15:52:30|15460699507004|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:52:30|15460699508745|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:52:30|15460699509353|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:52:30|15460699509353|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:52:39|15460699598993|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:52:39|15460699599162|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:52:39|15460699599655|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:52:39|15460699599655|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:54:24|15460700648883|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:54:25|15460700650500|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:54:25|15460700650993|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:54:25|15460700650993|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:54:42|15460700824748|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:54:42|15460700824900|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:54:42|15460700825538|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:54:42|15460700825538|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:55:08|15460701087591|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:55:08|15460701088041|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:55:08|15460701089300|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:55:08|15460701089300|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:55:18|15460701184384|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:55:18|15460701185059|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:55:18|15460701185247|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:55:18|15460701185247|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:55:27|15460701278514|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:55:27|15460701278958|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:55:27|15460701279009|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:55:27|15460701279009|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:55:36|15460701369503|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:55:36|15460701369709|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:55:37|15460701370109|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:55:37|15460701370109|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:55:46|15460701461453|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:55:46|15460701461453|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:55:46|15460701461620|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:55:46|15460701461734|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:56:08|15460701680064|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:56:08|15460701681275|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:56:08|15460701681275|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:56:08|15460701681381|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:56:08|15460701683302|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 15:56:09|15460701691279|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 15:56:54|15460702146680|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:56:54|15460702146942|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:56:54|15460702146942|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:56:54|15460702147572|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:57:05|15460702259422|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:57:05|15460702259422|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:57:05|15460702259466|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:57:05|15460702259704|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:57:14|15460702343014|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:57:14|15460702343593|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:57:14|15460702343593|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:57:14|15460702343864|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:57:29|15460702497079|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:57:29|15460702497079|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:57:29|15460702497759|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:57:29|15460702498338|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:57:44|15460702642185|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:57:44|15460702643163|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:57:44|15460702643163|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:57:44|15460702643242|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:58:15|15460702951900|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:58:15|15460702952590|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:58:15|15460702952944|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:58:15|15460702952944|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:58:45|15460703254581|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:58:45|15460703254854|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:58:45|15460703255618|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:58:45|15460703255618|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:58:54|15460703342165|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:58:54|15460703342712|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:58:54|15460703343572|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:58:54|15460703343572|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:59:02|15460703421760|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:59:02|15460703421823|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:59:02|15460703422813|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:59:02|15460703422813|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:59:29|15460703695269|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:59:29|15460703696159|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:59:29|15460703697137|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:59:29|15460703697137|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 15:59:45|15460703859396|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 15:59:46|15460703861137|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 15:59:46|15460703861272|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 15:59:46|15460703861272|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:00:00|15460704005128|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:00:00|15460704005241|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:00:00|15460704006514|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:00:00|15460704006514|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:00:08|15460704086382|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:00:08|15460704086468|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:00:08|15460704087281|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:00:08|15460704087281|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:00:16|15460704162782|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:00:16|15460704163822|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:00:16|15460704164329|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:00:16|15460704164329|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:01:18|15460704783121|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:01:18|15460704783846|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:01:18|15460704783846|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:01:18|15460704784093|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:01:53|15460705131496|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:01:53|15460705131581|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:01:53|15460705131581|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:01:53|15460705131808|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:02:03|15460705239678|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:02:03|15460705239933|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:02:04|15460705240027|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:02:04|15460705240027|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:02:21|15460705417852|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:02:21|15460705418465|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:02:21|15460705418974|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:02:21|15460705418974|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:03:37|15460706174474|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:03:37|15460706175233|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:03:37|15460706176173|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:03:37|15460706176173|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:03:42|15460706226937|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:03:42|15460706228315|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:03:42|15460706229019|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:03:42|15460706229019|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:04:15|15460706556537|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:04:15|15460706558374|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:04:15|15460706559439|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:04:15|15460706559439|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:05:22|15460707222156|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:05:22|15460707222309|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:05:22|15460707223438|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:05:22|15460707223438|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:05:48|15460707480964|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:05:48|15460707481614|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:05:48|15460707481614|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:05:48|15460707481742|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:06:47|15460708074464|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:06:47|15460708074749|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:06:47|15460708074749|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:06:47|15460708076801|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:08:44|15460709248995|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:08:44|15460709249074|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:08:44|15460709249617|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:08:44|15460709249617|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:09:28|15460709684882|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:09:28|15460709684882|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:09:28|15460709685422|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:09:28|15460709685712|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:09:45|15460709855984|58.56.21.246|Goods.getGoodsInfo|INFO|-----------------------{"id":"1160578964658530304","categoryType":"SaleGoodsType@sim","streamNo":"wxapp153570682909641893","reqSource":"MALL_H5","appid":"string","timestamp":1546070986278,"sign":"string"}
+2018-12-29 16:09:45|15460709855984|58.56.21.246|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1160578964658530304' limit 1
+2018-12-29 16:09:45|15460709855984|58.56.21.246|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1160578964658530304' and `t0`.`state` in ('20', '25', '60')
+2018-12-29 16:09:45|15460709855984|58.56.21.246|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1160578964658530304' limit 1
+2018-12-29 16:09:45|15460709855984|58.56.21.246|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '2427', `update_time` = '2018-12-29 16:09:45' where `id` = '1160578964658530304'
+2018-12-29 16:10:09|15460710097796|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 16:10:10|15460710102035|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 16:10:15|15460710152445|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 16:10:15|15460710152445|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 16:10:21|15460710214771|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:10:21|15460710214852|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:10:21|15460710215654|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:10:21|15460710215654|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:11:04|15460710644234|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:11:04|15460710644234|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:11:04|15460710644683|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:11:04|15460710644683|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:12:08|15460711281164|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:12:08|15460711281328|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:12:08|15460711281328|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:12:08|15460711282335|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:12:46|15460711662822|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:12:46|15460711663566|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:12:46|15460711664386|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:12:46|15460711664386|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:13:12|15460711921423|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:13:12|15460711921603|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:13:12|15460711923969|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:13:12|15460711923969|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:13:32|15460712129841|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:13:33|15460712130420|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:13:33|15460712130659|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:13:33|15460712130659|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:14:37|15460712776876|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:14:37|15460712777384|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:14:37|15460712777833|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:14:37|15460712777833|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:14:54|15460712949819|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:14:55|15460712950084|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:14:55|15460712950084|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:14:55|15460712950506|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:15:34|15460713349813|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:15:35|15460713350033|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:15:35|15460713350393|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:15:35|15460713350393|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:17:48|15460714680800|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:17:48|15460714681694|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:17:48|15460714682350|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:17:48|15460714682350|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:19:13|15460715535776|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:19:13|15460715536577|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:19:13|15460715536577|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:19:13|15460715536614|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:22:36|15460717565698|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:22:36|15460717566341|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:22:36|15460717566341|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:22:36|15460717566427|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:23:23|15460718039923|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:23:24|15460718040697|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:23:24|15460718040697|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:23:24|15460718040732|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:23:38|15460718185178|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 16:23:38|15460718188977|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 16:23:40|15460718206871|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 16:23:41|15460718216353|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 16:23:42|15460718223876|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 16:23:43|15460718232337|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 16:24:08|15460718481276|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 16:24:08|15460718484758|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 16:24:09|15460718498966|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 16:24:09|15460718498966|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 16:24:50|15460718900924|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:24:50|15460718901572|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:24:50|15460718901572|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:24:50|15460718902861|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:27:40|15460720608810|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:27:40|15460720609176|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:27:40|15460720609808|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:27:40|15460720609808|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:28:08|15460720881770|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:28:08|15460720881840|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:28:08|15460720882350|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:28:08|15460720882350|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:28:28|15460721083105|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:28:28|15460721083179|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:28:28|15460721084721|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:28:28|15460721084721|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:30:05|15460722050100|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:30:05|15460722050238|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:30:05|15460722050788|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:30:05|15460722050788|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:32:06|15460723269849|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:32:07|15460723270106|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:32:07|15460723270403|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:32:07|15460723270403|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:32:58|15460723789553|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:32:58|15460723789629|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:32:58|15460723789992|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:32:58|15460723789992|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:36:05|15460725655406|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:36:05|15460725655501|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:36:05|15460725656185|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:36:05|15460725656185|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:37:01|15460726211406|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:37:01|15460726211833|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:37:01|15460726211833|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:37:01|15460726212122|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:37:11|15460726314946|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:37:11|15460726315476|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:37:11|15460726315476|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:37:11|15460726315661|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:37:42|15460726623935|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:37:42|15460726624103|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:37:42|15460726625428|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:37:42|15460726625428|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:48:56|15460733361046|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:48:56|15460733361087|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:48:56|15460733361725|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:48:56|15460733361725|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:49:37|15460733771892|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:49:37|15460733772513|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:49:37|15460733773566|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:49:37|15460733773566|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:49:54|15460733945624|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 16:49:55|15460733951001|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 16:49:57|15460733971670|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 16:49:59|15460733992850|58.56.21.246|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 16:52:55|15460735753050|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:52:55|15460735753125|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:52:55|15460735755237|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:52:55|15460735755237|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:53:35|15460736151695|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:53:35|15460736152303|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:53:35|15460736153213|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:53:35|15460736153213|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:54:10|15460736503718|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:54:10|15460736503785|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:54:10|15460736504243|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:54:10|15460736504243|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:55:28|15460737281894|58.56.21.246|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:55:28|15460737281973|58.56.21.246|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:55:28|15460737282962|58.56.21.246|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:55:28|15460737282962|58.56.21.246|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:57:18|15460738388657|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:57:18|15460738388819|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:57:18|15460738389224|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:57:18|15460738389224|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:57:34|15460738545711|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 16:57:35|15460738551242|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 16:57:36|15460738563846|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 16:57:51|15460738710941|112.224.22.213|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 16:57:51|15460738710959|112.224.22.213|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 16:57:51|15460738711599|112.224.22.213|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 16:57:51|15460738711599|112.224.22.213|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 16:58:44|15460739243480|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 16:58:44|15460739243480|58.56.21.246|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 17:00:19|15460740194301|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 17:00:19|15460740199238|112.224.22.213|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 21:26:30|15460899901688|39.91.107.87|Widget.getWidgetBanner|INFO|select `id`, `title`, `desc`, `img_url`, `relation_type`, `relation_page` from `img_banner` where `status` = '10'
+2018-12-29 21:26:30|15460899902158|39.91.107.87|Goods.getRecommendGoods|INFO|select count(*) as aggregate from `goods_info` where `highlight` = '10' and `status` = '10'
+2018-12-29 21:26:30|15460899902158|39.91.107.87|Goods.getRecommendGoods|INFO|select `id`, `img`, `img_list`, `name`, `introduce`, `price`, `sales`, `create_time`, `original_price`, `province`, `city` from `goods_info` where `highlight` = '10' and `status` = '10' order by `update_time` desc limit 6 offset 0
+2018-12-29 21:26:30|15460899902644|39.91.107.87|getHomeClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` != '0' limit 10
+2018-12-29 21:26:33|15460899932437|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 21:26:33|15460899937960|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 21:26:34|15460899946788|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 21:26:35|15460899951937|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 21:26:36|15460899966641|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '6' order by `sort` asc
+2018-12-29 21:26:38|15460899980727|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 21:26:39|15460899992386|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 21:26:40|15460900004213|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '12' order by `sort` asc
+2018-12-29 21:26:41|15460900018840|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '19' order by `sort` asc
+2018-12-29 21:26:52|15460900125143|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 21:26:52|15460900129365|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 21:26:54|15460900145445|39.91.107.87|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 21:26:54|15460900145445|39.91.107.87|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1160578964658530304', '1188819697689386496')
+2018-12-29 21:27:15|15460900354304|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 21:27:15|15460900358568|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 21:27:16|15460900365797|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '0' order by `sort` asc
+2018-12-29 21:27:17|15460900370508|39.91.107.87|Goods.getClassify|INFO|select `id`, `name`, `img` from `goods_classify` where `pid` = '1' order by `sort` asc
+2018-12-29 21:27:37|15460900573738|39.91.107.87|Goods.getGoodsInfo|INFO|-----------------------{"id":"1154097120362453248","categoryType":"SaleGoodsType@sim","streamNo":"wxapp153570682909641893","reqSource":"MALL_H5","appid":"string","timestamp":1546090056844,"sign":"string"}
+2018-12-29 21:27:37|15460900573738|39.91.107.87|Goods.getGoodsInfo|INFO|select `t0`.`status` from `store` as `t0` left join `goods_info` as `t1` on `t1`.`store_id` = `t0`.`id` where `t1`.`id` = '1154097120362453248' limit 1
+2018-12-29 21:27:37|15460900573738|39.91.107.87|Goods.getGoodsInfo|INFO|select `t1`.`headimgurl` from `goods_order` as `t0` left join `comm_user_info` as `t1` on `t0`.`user_id` = `t1`.`user_id` where `t0`.`goods_id` = '1154097120362453248' and `t0`.`state` in ('20', '25', '60')
+2018-12-29 21:27:37|15460900573738|39.91.107.87|Goods.getGoodsInfo|INFO|select `name`, `img1`, `img2`, `img3`, `img4`, `img5`, `introduce`, `original_price`, `price`, `promote_profit`, `from_way`, `url`, `freight`, `sales`, `see`, `city`, `detail`, `status`, `goods_class`, `integral`, `goods_type` from `goods_info` where `id` = '1154097120362453248' limit 1
+2018-12-29 21:27:37|15460900573738|39.91.107.87|Goods.getGoodsInfo|INFO|update `goods_info` set `see` = '1134', `update_time` = '2018-12-29 21:27:37' where `id` = '1154097120362453248'
+2018-12-29 21:27:49|15460900690252|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248' limit 1
+2018-12-29 21:27:49|15460900690252|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|insert into `shopping_car` (`user_id`, `goods_id`, `num`, `piece`, `id`, `create_time`) values ('1188520153500064769', '1154097120362453248', '1', '1000.00', '1190405840184802560', '2018-12-29 21:27:48')
+2018-12-29 21:27:50|15460900700729|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248' limit 1
+2018-12-29 21:27:50|15460900700729|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|update `shopping_car` set `user_id` = '1188520153500064769', `goods_id` = '1154097120362453248', `num` = '2', `piece` = '1000.00', `update_time` = '2018-12-29 21:27:50' where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248'
+2018-12-29 21:27:51|15460900714771|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248' limit 1
+2018-12-29 21:27:51|15460900714771|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|update `shopping_car` set `user_id` = '1188520153500064769', `goods_id` = '1154097120362453248', `num` = '3', `piece` = '1000.00', `update_time` = '2018-12-29 21:27:51' where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248'
+2018-12-29 21:27:52|15460900725022|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248' limit 1
+2018-12-29 21:27:52|15460900725022|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|update `shopping_car` set `user_id` = '1188520153500064769', `goods_id` = '1154097120362453248', `num` = '4', `piece` = '1000.00', `update_time` = '2018-12-29 21:27:52' where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248'
+2018-12-29 21:27:53|15460900734768|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248' limit 1
+2018-12-29 21:27:53|15460900734768|39.91.107.87|ShoppingCar.addGoodsToCar|INFO|update `shopping_car` set `user_id` = '1188520153500064769', `goods_id` = '1154097120362453248', `num` = '5', `piece` = '1000.00', `update_time` = '2018-12-29 21:27:53' where `user_id` = '1188520153500064769' and `goods_id` = '1154097120362453248'
+2018-12-29 21:27:58|15460900785074|39.91.107.87|ShoppingCar.getMyGoodsCar|INFO|select * from `shopping_car` where `user_id` = '1188520153500064769'
+2018-12-29 21:27:58|15460900785074|39.91.107.87|ShoppingCar.getMyGoodsCar|INFO|select `id`, `name`, `img` from `goods_info` where `goods_info`.`id` in ('1154097120362453248', '1160578964658530304', '1188819697689386496')
